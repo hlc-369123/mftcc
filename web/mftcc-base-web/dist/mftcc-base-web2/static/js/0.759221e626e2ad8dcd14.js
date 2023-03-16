@@ -1,0 +1,2 @@
+System.register("mftcc-base-web",[],(function(e){return{execute:function(){e((window.webpackJsonpmftcc_base_web=window.webpackJsonpmftcc_base_web||[]).push([[0],[function(e,c,n){e.exports=n("201c")}],[[0,1,2]]]))}}}));
+//# sourceMappingURL=0.759221e626e2ad8dcd14.js.map

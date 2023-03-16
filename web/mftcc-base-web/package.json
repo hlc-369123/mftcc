@@ -1,0 +1,28 @@
+{
+  "name": "mftcc-base-web",
+  "version": "1.0.0",
+  "description": "mftcc",
+  "author": "mftcc",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "node --max_old_space_size=10000000 build/build.js"
+  },
+  "dependencies": {
+    "single-spa": "^5.8.2"
+  },
+  "devDependencies": {
+    "mftcc-dev-npm": "^1.2.0"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8",
+    "chrome >= 65"
+  ]
+}
