@@ -1,0 +1,163 @@
+spring:
+    cloud:
+        nacos:
+           discovery:
+               server-addr: 192.168.255.1:8848
+               namespace: 30a7f7f1-f414-4acc-8a4b-bbb5808727d5
+               group: example
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driverClassName: com.mysql.jdbc.Driver
+        druid:
+            # 数据源
+            url: jdbc:mysql://127.0.0.1:3388/mftcc-rule-server?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+            username: root
+            password: root
+            # 初始连接数
+            initialSize: 5
+            # 最小连接池数量
+            minIdle: 10
+            # 最大连接池数量
+            maxActive: 20
+            # 配置获取连接等待超时的时间
+            maxWait: 60000
+            # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+            timeBetweenEvictionRunsMillis: 60000
+            # 配置一个连接在池中最小生存的时间，单位是毫秒
+            minEvictableIdleTimeMillis: 300000
+            # 配置一个连接在池中最大生存的时间，单位是毫秒
+            maxEvictableIdleTimeMillis: 900000
+            # 配置检测连接是否有效
+            validationQuery: SELECT 1 FROM DUAL
+            testWhileIdle: true
+            testOnBorrow: false
+            testOnReturn: false
+            #druid recycle
+            removeAbandoned: true
+            removeAbandonedTimeout: 300
+            logAbandoned: true
+            webStatFilter:
+                enabled: false
+            statViewServlet:
+                enabled: true
+                url-pattern: /druid/*
+            filter:
+                stat:
+                    enabled: true
+                    # 慢SQL记录
+                    log-slow-sql: true
+                    slow-sql-millis: 1000
+                    merge-sql: true
+                wall:
+                    config:
+                        multi-statement-allow: true
+    thymeleaf:
+        #模板的模式，支持 HTML, XML TEXT JAVASCRIPT
+        mode: HTML
+        #编码 可不用配置
+        encoding: UTF-8
+        #内容类别,可不用配置
+        servlet:
+            content-type: text/html
+        #开发配置为false,避免修改模板还要重启服务器
+        cache: false
+        #配置模板路径，默认是templates，可以不用配置
+        prefix: classpath:/templates/
+        suffix: .html
+    mvc:
+        view:
+            suffix: .jsp
+            prefix: classpath:/WEB-INF/jsp/
+        pathmatch:
+            use-suffix-pattern: true
+    devtools:
+        add-properties: false
+        restart:
+            enabled: true
+            additional-paths: src/main/java
+            exclude: WEB-INF/**
+    redis:
+        sentinel:
+            master: myMaster
+            nodes: 121.36.57.7:6379,192.168.1.244:7004,192.168.1.236:7003
+        host: 127.0.0.1
+        port: 6379
+        password:
+        timeout: 6000  # 连接超时时长（毫秒）
+        lettuce:
+            pool:
+                max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
+                max-wait: -1      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+                max-idle: 10      # 连接池中的最大空闲连接
+                min-idle: 5       # 连接池中的最小空闲连接
+        db:
+            rule: 5
+        expire:
+            rule: -1
+        keyPrefix:
+            rule: rule
+        defaultTime: -1
+comm:
+    timeOut: 3000
+# MyBatis plus
+mybatis-plus:
+    # package name range
+    typeAliasesPackage: com.dhcc.rule.dataSource.entity
+    # 配置mapper的扫描，找到所有的mapper.xml映射文件
+    mapper-locations: classpath*:mapper/*.xml
+    configuration:
+        map-underscore-to-camel-case: true
+        # 全局映射器启用缓存
+        cache-enabled: false
+        call-setters-on-nulls: true
+        # 允许 JDBC 支持自动生成主键
+        useGeneratedKeys: false
+        # 默认的执行器
+        defaultExecutorType: REUSE
+    global-config:
+        # banner print -> off
+        banner: false
+        # logic delete config
+        db-config:
+            #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
+            #id-type: NONE #oracle兼容
+            # already delete value -> 1
+            logic-delete-value: 1
+            # not delete value -> 0
+            logic-not-delete-value: 0
+cusconfig:
+    path: D:\工作\微服务项目\server\mftcc-rule-server\conf
+    file: D:\工作\微服务项目\server\mftcc-rule-server\expr
+    #path: /home/mftcc/project/mftcc-rule-server/conf
+    #file: /home/mftcc/project/mftcc-rule-server/expr
+mftcc:
+    dbType: mysql
+    license-path: D:\工作\微服务项目\server\mftcc-rule-server\conf
+    #license-path: /home/mftcc/project/mftcc-rule-server/conf
+    defTenantId: 10001
+    super-admin:
+        name: "root"
+        password: "1"
+xss:
+    enabled: true
+    excludes:
+    urlPatterns: /*
+logging:
+    level:
+        com.dhcc.*: debug
+#监控检查
+management:
+    endpoints:
+        web:
+            exposure:
+                #开启所有端点
+                include: '*'
+    endpoint:
+        health:
+            show-details: always
+mybatis:
+    mapperLocations: classpath:mapper/*.xml
+python:
+    path: D:\pythonFile\python\
+pmml:
+    path: D:\pythonFile\pmml\

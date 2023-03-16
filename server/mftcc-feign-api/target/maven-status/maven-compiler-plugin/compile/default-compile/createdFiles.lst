@@ -1,0 +1,4 @@
+cn\mftcc\flowable\feign\api\FlowableBizInterface.class
+cn\mftcc\flowable\feign\api\FlowableInterface.class
+cn\mftcc\rule\feign\api\RuleInterface.class
+cn\mftcc\sys\feign\api\SysInterface.class

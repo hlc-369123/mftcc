@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.mftcc.sys.components.sys.mapper.SysMsgConfigMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="cn.mftcc.sys.components.sys.entity.SysMsgConfigEntity" id="sysMsgConfigMap">
+        <result property="msgCode" column="msg_code"/>
+        <result property="msgCnt" column="msg_cnt"/>
+        <result property="msgType" column="msg_type"/>
+        <result property="msgLvl" column="msg_lvl"/>
+    </resultMap>
+
+
+</mapper>

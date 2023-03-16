@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.mftcc.sys.components.sys.mapper.SysUserMapper">
+
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="cn.mftcc.sys.components.sys.entity.SysUserEntity" id="sysUserMap">
+        <result property="userId" column="user_id" jdbcType="INTEGER"/>
+        <result property="corpId" column="corp_id" jdbcType="VARCHAR"/>
+        <result property="opNo" column="op_no" jdbcType="VARCHAR"/>
+        <result property="password" column="password" jdbcType="VARCHAR"/>
+        <result property="opName" column="op_name" jdbcType="VARCHAR"/>
+        <result property="employeeNo" column="employee_no" jdbcType="VARCHAR"/>
+        <result property="brNo" column="br_no" jdbcType="VARCHAR"/>
+        <result property="roleNo" column="role_no" jdbcType="VARCHAR"/>
+        <result property="idTyp" column="id_typ"/>
+        <result property="idNo" column="id_no" jdbcType="VARCHAR"/>
+        <result property="sex" column="sex"/>
+        <result property="tel" column="tel" jdbcType="VARCHAR"/>
+        <result property="privateTel" column="private_tel" jdbcType="VARCHAR"/>
+        <result property="homeTel" column="home_tel" jdbcType="VARCHAR"/>
+        <result property="email" column="email" jdbcType="VARCHAR"/>
+        <result property="privateEmail" column="private_email" jdbcType="VARCHAR"/>
+        <result property="userSts" column="user_sts"/>
+    </resultMap>
+
+
+    <select id="getUserByRoleTypes" resultMap="sysUserMap">
+        select user.*
+        from sys_user user,sys_role role
+        where INSTR(user.role_no,role.role_no)
+        and
+        <if test="list != null and list.size>0">
+            role.role_type in
+            <foreach collection="list" item="item" index="index"
+                     open="(" separator="," close=")">#{item}</foreach>
+        </if>
+        <if test="list==null or list.size==0">1=0</if>
+    </select>
+
+    <select id="findByPage4Dialog" resultType="cn.mftcc.sys.components.sys.entity.SysUserEntity">
+        SELECT u.*,d.br_name,r.role_name FROM sys_user u
+        LEFT JOIN sys_dept d ON u.br_no = d.br_no
+        LEFT JOIN sys_role r ON u.role_no like concat("%",r.role_no,"%")
+        ${ew.customSqlSegment}
+    </select>
+
+    <select id="findUserListByBrRole" resultType="cn.mftcc.sys.components.sys.entity.SysUserEntity">
+        SELECT u.*,d.br_name,r.role_name FROM sys_user u
+        LEFT JOIN sys_dept d ON u.br_no = d.br_no
+        LEFT JOIN sys_role r ON u.role_no like concat("%",r.role_no,"%")
+        ${ew.customSqlSegment}
+    </select>
+
+</mapper>

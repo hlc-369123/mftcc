@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.mftcc.sys.components.demo.mapper.DynamicModelTableMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="cn.mftcc.sys.components.demo.entity.DynamicModelTableEntity" id="DynamicModelTableMap">
+        <result property="finId" column="FIN_ID"/>
+        <result property="finNo" column="FIN_NO"/>
+        <result property="finAuthNo" column="FIN_AUTH_NO"/>
+        <result property="finOrgType" column="FIN_ORG_TYPE"/>
+        <result property="finOrgName" column="FIN_ORG_NAME"/>
+        <result property="finType" column="FIN_TYPE"/>
+        <result property="loanDate" column="LOAN_DATE"/>
+        <result property="endDate" column="END_DATE"/>
+        <result property="termMon" column="TERM_MON"/>
+        <result property="baseRate" column="BASE_RATE"/>
+        <result property="executeRate" column="EXECUTE_RATE"/>
+        <result property="loanAmt" column="LOAN_AMT"/>
+        <result property="repayAmt" column="REPAY_AMT"/>
+        <result property="loanBal" column="LOAN_BAL"/>
+        <result property="xirr" column="XIRR"/>
+        <result property="finCost" column="FIN_COST"/>
+        <result property="loanNature" column="LOAN_NATURE"/>
+        <result property="finProjectName" column="FIN_PROJECT_NAME"/>
+        <result property="finMain" column="FIN_MAIN"/>
+        <result property="ifNoRecFac" column="IF_NO_REC_FAC"/>
+        <result property="prcpRepayType" column="PRCP_REPAY_TYPE"/>
+        <result property="normRepayType" column="NORM_REPAY_TYPE"/>
+        <result property="icType" column="IC_TYPE"/>
+        <result property="otherTypeDesc" column="OTHER_TYPE_DESC"/>
+        <result property="secFlt" column="SEC_FLT"/>
+        <result property="secAmt" column="SEC_AMT"/>
+        <result property="feePayType" column="FEE_PAY_TYPE"/>
+        <result property="feeFlt" column="FEE_FLT"/>
+        <result property="feeAmt" column="FEE_AMT"/>
+        <result property="accCateType" column="ACC_CATE_TYPE"/>
+        <result property="accBankName" column="ACC_BANK_NAME"/>
+        <result property="accName" column="ACC_NAME"/>
+        <result property="accNo" column="ACC_NO"/>
+        <result property="adjustType" column="ADJUST_TYPE"/>
+        <result property="comBaseRate" column="COM_BASE_RATE"/>
+        <result property="floatFlt" column="FLOAT_FLT"/>
+        <result property="floatAmt" column="FLOAT_AMT"/>
+        <result property="fixedRate" column="FIXED_RATE"/>
+        <result property="finProSts" column="FIN_PRO_STS"/>
+        <result property="otherRate" column="OTHER_RATE"/>
+        <result property="regNo" column="REG_NO"/>
+        <result property="regName" column="REG_NAME"/>
+        <result property="lstRegNo" column="LST_REG_NO"/>
+        <result property="lstRegName" column="LST_REG_NAME"/>
+        <result property="orgNo" column="ORG_NO"/>
+        <result property="orgName" column="ORG_NAME"/>
+        <result property="lstOrgNo" column="LST_ORG_NO"/>
+        <result property="lstOrgName" column="LST_ORG_NAME"/>
+        <result property="regDate" column="REG_DATE"/>
+        <result property="lstDate" column="LST_DATE"/>
+        <result property="regTime" column="REG_TIME"/>
+        <result property="lstTime" column="LST_TIME"/>
+        <result property="corpId" column="CORP_ID"/>
+    </resultMap>
+
+
+</mapper>

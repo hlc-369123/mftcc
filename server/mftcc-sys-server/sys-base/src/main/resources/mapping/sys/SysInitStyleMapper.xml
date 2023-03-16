@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.mftcc.sys.components.initStyle.mapper.SysInitStyleMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="cn.mftcc.sys.components.initStyle.entity.SysInitStyleEntity" id="sysInitStyleMap">
+        <result property="id" column="id"/>
+        <result property="companyId" column="company_id"/>
+        <result property="title" column="title"/>
+        <result property="titleColor" column="title_color"/>
+        <result property="logoSite" column="logo_site"/>
+        <result property="inputAreaColor" column="input_area_color"/>
+        <result property="inputColor" column="input_color"/>
+        <result property="inputTextColor" column="input_text_color"/>
+        <result property="inputIconColor" column="input_icon_color"/>
+        <result property="buttonColor" column="button_color"/>
+        <result property="buttonTextColor" column="button_text_color"/>
+        <result property="loginBackImg" column="login_back_img"/>
+        <result property="loginLogo" column="login_logo"/>
+        <result property="sysLogo" column="sys_logo"/>
+        <result property="slogan" column="slogan"/>
+        <result property="loadingImg" column="loading_img"/>
+        <result property="smallLoadingImg" column="small_loading_img"/>
+        <result property="allLogo" column="all_logo"/>
+        <result property="spare1" column="spare1"/>
+        <result property="spare2" column="spare2"/>
+        <result property="spare3" column="spare3"/>
+        <result property="spare4" column="spare4"/>
+        <result property="spare5" column="spare5"/>
+    </resultMap>
+
+    <select id="findListByCompanyId" parameterType="string" resultMap="sysInitStyleMap">
+        select *
+        from sys_init_style
+        where company_id = #{companyId}
+    </select>
+    <delete id="deleteByCompanyId" parameterType="string">
+        delete from sys_init_style
+        where company_id = #{companyId}
+    </delete>
+</mapper>

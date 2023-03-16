@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.mftcc.sys.components.sys.mapper.SysModelMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="Map" id="sysModelMap">
+        <result property="modelId" column="model_id"/>
+        <result property="mapperPath" column="mapper_path"/>
+        <result property="btnKey" column="btn_key"/>
+        <result property="modelName" column="model_name"/>
+        <result property="modelRmk" column="model_rmk"/>
+        <result property="modelTyp" column="model_typ"/>
+        <result property="expr" column="expr"/>
+        <result property="dataAuth" column="data_auth"/>
+        <result property="corpId" column="corp_id"/>
+        <result property="upCmptId" column="up_cmpt_id"/>
+    </resultMap>
+
+    <resultMap type="cn.mftcc.sys.components.sys.entity.SysModelEntity" id="SysModelEntity">
+        <result property="modelId" column="model_id"/>
+        <result property="mapperPath" column="mapper_path"/>
+        <result property="btnKey" column="btn_key"/>
+        <result property="modelName" column="model_name"/>
+        <result property="modelRmk" column="model_rmk"/>
+        <result property="modelTyp" column="model_typ"/>
+        <result property="expr" column="expr"/>
+        <result property="dataAuth" column="data_auth"/>
+        <result property="corpId" column="corp_id"/>
+        <result property="urlAuth" column="url_auth"/>
+    </resultMap>
+
+
+    <select id="findAllJionImport"  resultMap="sysModelMap">
+        SELECT * FROM sys_model m RIGHT JOIN sys_import i ON m.model_id = i.cmpt_id;
+    </select>
+
+    <select id="findListByRoleIds" resultType="java.lang.String">
+        select model.btn_key
+        from sys_model model
+        where model.model_id in
+        (select model_id from sys_model_auth where
+        <if test="list != null and list.size>0">
+            role_id in
+            <foreach collection="list" item="item" index="index"
+                     open="(" separator="," close=")">#{item}</foreach>
+        </if>
+        <if test="list==null or list.size==0">1=0</if>)
+    </select>
+
+    <select id="findListByRoleId" resultMap="SysModelEntity">
+        select model.*
+        from sys_model model
+        where model.model_id in
+        (select model_id from sys_model_auth where
+        role_id = #{roleId})
+    </select>
+
+
+</mapper>

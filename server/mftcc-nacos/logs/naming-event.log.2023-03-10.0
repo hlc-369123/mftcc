@@ -1,0 +1,8 @@
+2023-03-10 10:30:15,491 INFO example@@mftcc-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.255.1:7019:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-10 10:30:15,496 INFO [IP-UPDATED] namespace: 30a7f7f1-f414-4acc-8a4b-bbb5808727d5, service: example@@mftcc-gateway, ips: 192.168.255.1:7019_true,
+
+2023-03-10 10:31:04,529 INFO example@@mftcc-sys-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.255.1:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-10 10:31:04,529 INFO [IP-UPDATED] namespace: 30a7f7f1-f414-4acc-8a4b-bbb5808727d5, service: example@@mftcc-sys-server, ips: 192.168.255.1:8071_true,
+

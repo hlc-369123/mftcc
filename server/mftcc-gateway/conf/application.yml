@@ -1,0 +1,26 @@
+server:
+  port: 7019
+  #servlet:
+  #context-path: /
+spring:
+  application:
+    name: mftcc-gateway
+  cloud:
+    nacos: 
+      config: 
+        server-addr: ${NACOS_ADDRESS:192.168.255.1:8848}
+        namespace: 30a7f7f1-f414-4acc-8a4b-bbb5808727d5
+        group: example
+        file-extension: yml
+        dataId: gateway-router
+        ext-config:
+          - data-id: mftcc.yml
+            group: example
+            refresh: true
+
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+  file: ${gateway.home}/logs/gateway-cmd.log

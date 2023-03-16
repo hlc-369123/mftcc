@@ -1,0 +1,18 @@
+2023-03-15 14:44:51,189 INFO example@@mftcc-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.255.1:7019:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-15 14:44:51,193 INFO [IP-UPDATED] namespace: 30a7f7f1-f414-4acc-8a4b-bbb5808727d5, service: example@@mftcc-gateway, ips: 192.168.255.1:7019_true,
+
+2023-03-15 14:45:58,084 INFO example@@mftcc-example-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.255.1:8060:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-15 14:45:58,084 INFO [IP-UPDATED] namespace: 30a7f7f1-f414-4acc-8a4b-bbb5808727d5, service: example@@mftcc-example-server, ips: 192.168.255.1:8060_true,
+
+2023-03-15 14:45:58,572 INFO example@@mftcc-sys-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.255.1:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-15 14:45:58,572 INFO [IP-UPDATED] namespace: 30a7f7f1-f414-4acc-8a4b-bbb5808727d5, service: example@@mftcc-sys-server, ips: 192.168.255.1:8071_true,
+
+2023-03-15 14:57:24,257 INFO {POS} {IP-DISABLED} valid: 192.168.255.1:8060@DEFAULT@example@@mftcc-example-server, region: unknown, msg: client timeout after 15000, last beat: 1678863424537
+
+2023-03-15 14:57:36,986 INFO [IP-UPDATED] namespace: 30a7f7f1-f414-4acc-8a4b-bbb5808727d5, service: example@@mftcc-example-server, ips: 192.168.255.1:8060_false,
+
+2023-03-15 14:57:41,959 INFO service: example@@mftcc-example-server {POS} {IP-ENABLED} valid: 192.168.255.1:8060@DEFAULT, region: unknown, msg: client beat ok
+

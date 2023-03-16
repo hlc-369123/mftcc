@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.mftcc.sys.components.sys.mapper.SysRoleMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="cn.mftcc.sys.components.sys.entity.SysRoleEntity" id="sysRoleMap">
+        <result property="roleNo" column="role_no"/>
+        <result property="roleName" column="role_name"/>
+        <result property="roleType" column="role_type"/>
+        <result property="roleLev" column="role_lev"/>
+    </resultMap>
+
+
+</mapper>

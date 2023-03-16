@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.mftcc.sys.components.sys.mapper.SysSecUserMarkInfoMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="cn.mftcc.sys.components.sys.entity.SysSecUserMarkInfoEntity" id="sysSecUserMarkInfoMap">
+        <result property="opNo" column="op_no"/>
+        <result property="passwordUpdateTime" column="password_update_time"/>
+        <result property="visitTimes" column="visit_times"/>
+        <result property="loginErrorTimes" column="login_error_times"/>
+        <result property="lastSignInTime" column="last_sign_in_time"/>
+        <result property="lastSignOutTime" column="last_sign_out_time"/>
+        <result property="currentSignInTime" column="current_sign_in_time"/>
+        <result property="passwordState" column="password_state"/>
+        <result property="passwordMessege" column="password_messege"/>
+    </resultMap>
+
+
+</mapper>

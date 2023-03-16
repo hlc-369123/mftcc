@@ -1,0 +1,60 @@
+2023-03-16 10:35:51.555  INFO 15868 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\hp\nacos\config
+2023-03-16 10:35:51.654  INFO 15868 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2023-03-16 10:35:52.545  INFO 15868 --- [main] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2023-03-16 10:35:52.566  WARN 15868 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[mftcc-gateway] & group[example]
+2023-03-16 10:35:52.575  INFO 15868 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-mftcc-gateway.yml,example'}, BootstrapPropertySource {name='bootstrapProperties-mftcc-gateway,example'}, BootstrapPropertySource {name='bootstrapProperties-mftcc.yml,example'}]
+2023-03-16 10:35:52.861  INFO 15868 --- [main] cn.mftcc.gateway.GatewayApplication      : No active profile set, falling back to default profiles: default
+2023-03-16 10:35:53.475  WARN 15868 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2023-03-16 10:35:53.480  WARN 15868 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-16 10:35:53.609  INFO 15868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-16 10:35:53.612  INFO 15868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-16 10:35:53.637  INFO 15868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2023-03-16 10:35:53.700  WARN 15868 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2023-03-16 10:35:53.838  INFO 15868 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3a9815ca-cf6a-3f8a-9a29-c8f68599bfc0
+2023-03-16 10:35:53.984  INFO 15868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 10:35:53.985  INFO 15868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 10:35:53.987  INFO 15868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 10:35:56.365  WARN 15868 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2023-03-16 10:35:56.366  INFO 15868 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-16 10:35:56.375  WARN 15868 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2023-03-16 10:35:56.376  INFO 15868 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-16 10:35:58.772  INFO 15868 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-03-16 10:36:00.994  INFO 15868 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-03-16 10:36:03.213  INFO 15868 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-03-16 10:36:05.893  INFO 15868 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-03-16 10:36:05.893  INFO 15868 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-03-16 10:36:05.894  INFO 15868 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-03-16 10:36:05.896  INFO 15868 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-03-16 10:36:05.896  INFO 15868 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-03-16 10:36:05.896  INFO 15868 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-03-16 10:36:05.897  INFO 15868 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-03-16 10:36:05.897  INFO 15868 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-03-16 10:36:05.898  INFO 15868 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-03-16 10:36:05.898  INFO 15868 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2023-03-16 10:36:05.898  INFO 15868 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-16 10:36:05.899  INFO 15868 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-03-16 10:36:05.899  INFO 15868 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-16 10:36:06.135  INFO 15868 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-03-16 10:36:06.239  INFO 15868 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2023-03-16 10:36:08.610  INFO 15868 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-03-16 10:36:09.593  INFO 15868 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 7019
+2023-03-16 10:36:11.838  INFO 15868 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-03-16 10:36:14.053  INFO 15868 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-03-16 10:36:14.103  INFO 15868 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, example mftcc-gateway 192.168.255.1:7019 register finished
+2023-03-16 10:36:14.108  INFO 15868 --- [main] cn.mftcc.gateway.GatewayApplication      : Started GatewayApplication in 28.943 seconds (JVM running for 29.551)
+2023-03-16 10:38:20.160  INFO 15868 --- [reactor-http-nio-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: mftcc-sys-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2023-03-16 10:38:20.186  INFO 15868 --- [reactor-http-nio-2] c.netflix.loadbalancer.BaseLoadBalancer  : Client: mftcc-sys-server instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mftcc-sys-server,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2023-03-16 10:38:20.193  INFO 15868 --- [reactor-http-nio-2] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2023-03-16 10:38:20.206  INFO 15868 --- [reactor-http-nio-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: mftcc-sys-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2023-03-16 10:38:20.209  INFO 15868 --- [reactor-http-nio-2] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client mftcc-sys-server initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mftcc-sys-server,current list of Servers=[192.168.255.1:8071],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.255.1:8071;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@33f80258
+2023-03-16 10:38:21.206  INFO 15868 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: mftcc-sys-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2023-03-16 10:41:22.282  INFO 15868 --- [reactor-http-nio-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: mftcc-example-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2023-03-16 10:41:22.284  INFO 15868 --- [reactor-http-nio-2] c.netflix.loadbalancer.BaseLoadBalancer  : Client: mftcc-example-server instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mftcc-example-server,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2023-03-16 10:41:22.292  INFO 15868 --- [reactor-http-nio-2] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2023-03-16 10:41:22.293  INFO 15868 --- [reactor-http-nio-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: mftcc-example-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2023-03-16 10:41:22.294  INFO 15868 --- [reactor-http-nio-2] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client mftcc-example-server initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mftcc-example-server,current list of Servers=[192.168.255.1:8060],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.255.1:8060;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@3110003d
+2023-03-16 10:41:23.296  INFO 15868 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: mftcc-example-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647

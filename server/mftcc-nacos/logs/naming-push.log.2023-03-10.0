@@ -1,0 +1,10 @@
+2023-03-10 10:30:16,509 INFO example@@mftcc-gateway is changed, add it to push queue.
+
+2023-03-10 10:30:16,530 INFO serviceName: example@@mftcc-gateway changed, schedule push for: 192.168.72.1:59291, agent: Nacos-Java-Client:v1.2.1, key: 192.168.72.1,59291,924325550907300
+
+2023-03-10 10:30:16,530 INFO send udp packet: 192.168.72.1,59291,924325550907300
+
+2023-03-10 10:30:16,538 INFO received ack: {"type": "push-ack", "lastRefTime":"924325550907300", "data":""} from: 192.168.72.1:59291, cost: 8 ms, unacked: 0, total push: 1
+
+2023-03-10 10:31:05,537 INFO example@@mftcc-sys-server is changed, add it to push queue.
+

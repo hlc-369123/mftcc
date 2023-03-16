@@ -1,0 +1,12 @@
+2023-03-13 14:12:07,770 INFO [dump-all-ok] mftcc.yml+example, 1678416170000, length=4044, md5=e636edc88e8c9643638ab2a3bd35d2a9
+
+2023-03-13 14:12:07,772 INFO [dump-all-ok] mftcc-gateway.yml+example, 1615778539000, length=187, md5=415bea083b0071b74042287c8c06f72c
+
+2023-03-13 14:12:07,773 INFO [dump-all-ok] mftcc-sys-server.yml+example, 1662615774000, length=353, md5=30deb8c3b507ed923e959a9dc77a3c25
+
+2023-03-13 14:12:07,774 INFO [dump-all-ok] mftcc-example-server.yml+example, 1662615818000, length=527, md5=03f40ef37391e7e49a35a2465e588776
+
+2023-03-13 14:12:07,775 INFO [dump-all-ok] mftcc-rule-server.yml+example, 1663901877000, length=4934, md5=1bafe3645290c822ff8e81ae948cf3fc
+
+2023-03-13 14:12:07,776 INFO [dump-all-ok] mftcc-flowable-server.yml+example, 1662615927000, length=1288, md5=6a9d01b36af6d5d78797cfffee6519e7
+

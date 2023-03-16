@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true  
+mftcc:
+# dev-开发模式;prod-生产模式
+  RuntimeEnvironment: dev

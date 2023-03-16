@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.mftcc.sys.components.sys.mapper.SysViewAuthMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="cn.mftcc.sys.components.sys.entity.SysViewAuthEntity" id="sysViewAuthMap">
+        <result property="id" column="id"/>
+        <result property="roleId" column="role_id"/>
+        <result property="viewId" column="view_id"/>
+        <result property="viewCpmtId" column="view_cpmt_id"/>
+    </resultMap>
+
+    <insert id="insertBatch" parameterType="java.util.List">
+        INSERT INTO sys_view_auth (id,role_id, view_id, view_cmpt_id)
+        values
+        <foreach collection="list" item="item" index="index"
+                 separator=",">
+            (
+                (SELECT REPLACE(UUID(), '-', '') AS id),
+                #{item.roleId},
+                #{item.viewId},
+                #{item.viewCmptId}
+            )
+        </foreach>
+    </insert>
+</mapper>

@@ -1,0 +1,36 @@
+2023-03-15 14:44:52,197 INFO example@@mftcc-gateway is changed, add it to push queue.
+
+2023-03-15 14:44:52,252 INFO serviceName: example@@mftcc-gateway changed, schedule push for: 192.168.72.1:51328, agent: Nacos-Java-Client:v1.2.1, key: 192.168.72.1,51328,1371612414679600
+
+2023-03-15 14:44:52,253 INFO send udp packet: 192.168.72.1,51328,1371612414679600
+
+2023-03-15 14:44:52,261 INFO received ack: {"type": "push-ack", "lastRefTime":"1371612414679600", "data":""} from: 192.168.72.1:51328, cost: 9 ms, unacked: 0, total push: 1
+
+2023-03-15 14:45:59,085 INFO example@@mftcc-example-server is changed, add it to push queue.
+
+2023-03-15 14:45:59,586 INFO example@@mftcc-sys-server is changed, add it to push queue.
+
+2023-03-15 14:57:25,259 INFO example@@mftcc-example-server is changed, add it to push queue.
+
+2023-03-15 14:57:25,259 INFO serviceName: example@@mftcc-example-server changed, schedule push for: 192.168.72.1:51328, agent: Nacos-Java-Client:v1.2.1, key: 192.168.72.1,51328,1372365421356200
+
+2023-03-15 14:57:25,259 INFO send udp packet: 192.168.72.1,51328,1372365421356200
+
+2023-03-15 14:57:25,260 INFO received ack: {"type": "push-ack", "lastRefTime":"1372365421356200", "data":""} from: 192.168.72.1:51328, cost: 1 ms, unacked: 0, total push: 2
+
+2023-03-15 14:57:38,002 INFO example@@mftcc-example-server is changed, add it to push queue.
+
+2023-03-15 14:57:38,002 INFO serviceName: example@@mftcc-example-server changed, schedule push for: 192.168.72.1:51328, agent: Nacos-Java-Client:v1.2.1, key: 192.168.72.1,51328,1372378164780200
+
+2023-03-15 14:57:38,002 INFO send udp packet: 192.168.72.1,51328,1372378164780200
+
+2023-03-15 14:57:38,003 INFO received ack: {"type": "push-ack", "lastRefTime":"1372378164780200", "data":""} from: 192.168.72.1:51328, cost: 1 ms, unacked: 0, total push: 3
+
+2023-03-15 14:57:42,962 INFO example@@mftcc-example-server is changed, add it to push queue.
+
+2023-03-15 14:57:42,962 INFO serviceName: example@@mftcc-example-server changed, schedule push for: 192.168.72.1:51328, agent: Nacos-Java-Client:v1.2.1, key: 192.168.72.1,51328,1372383124354700
+
+2023-03-15 14:57:42,962 INFO send udp packet: 192.168.72.1,51328,1372383124354700
+
+2023-03-15 14:57:42,963 INFO received ack: {"type": "push-ack", "lastRefTime":"1372383124354700", "data":""} from: 192.168.72.1:51328, cost: 1 ms, unacked: 0, total push: 4
+

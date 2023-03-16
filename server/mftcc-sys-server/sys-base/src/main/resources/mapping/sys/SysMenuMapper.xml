@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.mftcc.sys.components.sys.mapper.SysMenuMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="cn.mftcc.sys.components.sys.entity.SysMenuEntity" id="sysMenuMap">
+        <result property="menuId" column="menu_id"/>
+        <result property="menuName" column="menu_name"/>
+        <result property="upMenuId" column="up_menu_id"/>
+        <result property="menuIcon" column="menu_icon"/>
+        <result property="sn" column="sn"/>
+        <result property="sts" column="sts"/>
+        <result property="corpId" column="corp_id"/>
+        <result property="menuUrl" column="menu_url"/>
+        <result property="newTab" column="new_tab"/>
+    </resultMap>
+
+    <select id="findListByRoleIds" resultMap="sysMenuMap">
+        select menu.*
+        from sys_menu menu
+        where menu.menu_id in
+        (select menu_id from sys_menu_auth where
+        <if test="list != null and list.size>0">
+            role_id in
+            <foreach collection="list" item="item" index="index"
+                     open="(" separator="," close=")">#{item}</foreach>
+        </if>
+        <if test="list==null or list.size==0">1=0</if>)
+        order by up_menu_id,sn,menu_id
+    </select>
+</mapper>
