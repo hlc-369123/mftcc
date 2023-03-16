@@ -1,0 +1,32 @@
+{
+  "name": "mftcc-example-web",
+  "version": "1.0.0",
+  "description": "",
+  "author": "mftcc",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "npm_install": "npm i --registry=https://registry.npm.taobao.org",
+    "clear:node_modules": "rimraf node_modules",
+    "build": "node  --max_old_space_size=10000000 build/build.js  "
+  },
+  "dependencies": {
+    "mftcc-router-npm": "^1.0.4",
+    "single-spa-vue": "^2.1.0",
+    "systemjs-webpack-interop": "^2.3.4",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "devDependencies": {
+    "mftcc-dev-npm": "^1.2.0"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
