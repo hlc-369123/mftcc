@@ -17,6 +17,6 @@ spring:
 mftcc:
   design:
 #    file-path: D:\_work\mftcc-source-tech\mftcc-dev\mftcc-plt-dev\static\data
-     file-path: D:\工作\客户相关资料\时速云\git\web\mftcc-layout-web\static\data
+     file-path: D:\工作\客户相关资料\时速云\git项目\web\mftcc-layout-web\static\data
   FeignClient:
     flowable: mftcc-flowable-server
