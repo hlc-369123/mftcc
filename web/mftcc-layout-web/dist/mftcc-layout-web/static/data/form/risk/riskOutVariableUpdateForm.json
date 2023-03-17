@@ -1,0 +1,106 @@
+{
+  "formId": "riskOutVariableUpdateForm",
+  "formName": "riskOutVariableUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+    {
+      "label": "变量编号",
+      "fieldName": "varNo",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入变量编号",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "变量编号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "变量编码",
+      "fieldName": "varCode",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入变量编码",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "变量编码不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "变量名称",
+      "fieldName": "varName",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入变量名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "变量名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "变量类型",
+      "fieldName": "varType",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入变量类型",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "变量类型不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    }
+  ]
+}

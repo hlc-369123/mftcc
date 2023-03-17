@@ -1,0 +1,60 @@
+{
+  "formId": "sysUser",
+  "formName": "sysUser",
+  "formDisabled": false,
+  "labelPosition": "center",
+  "columns": 2,
+  "formItem": [
+    {
+      "label": "机构简称",
+      "fieldName": "brName",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入机构简称",
+      "switchValue": {"activeValue": 1,"inActiveValue": 0},
+      "dicKey": "",
+      "dicItem": [
+        {"optCode": "","optName": ""}
+      ],
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[],
+      "events":[
+        {"type": "","callback": ""}
+      ],
+      "dateFormat":{
+        "format": "",
+        "valueFormat" : ""
+      },
+      "formatter": ""
+    },
+    {
+      "label": "状态",
+      "fieldName": "brSts",
+      "fieldType": "select",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入状态",
+      "switchValue": {"activeValue": 1,"inActiveValue": 0},
+      "dicKey": "STATUS",
+      "dicItem": [
+        {"optCode": "","optName": ""}
+      ],
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[],
+      "events":[
+        {"type": "","callback": ""}
+      ],
+      "dateFormat":{
+        "format": "",
+        "valueFormat" : ""
+      },
+      "formatter": ""
+    }
+
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "formId": "factorRefundApplyInsertForm",
+  "formName": "factorRefundApplyInsertForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

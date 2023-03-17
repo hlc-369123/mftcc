@@ -1,0 +1,10 @@
+{
+  "formId": "riskRegisterIndexUpdateForm",
+  "formName": "riskRegisterIndexUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

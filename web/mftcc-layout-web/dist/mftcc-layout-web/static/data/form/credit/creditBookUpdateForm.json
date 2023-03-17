@@ -1,0 +1,10 @@
+{
+  "formId": "creditBookUpdateForm",
+  "formName": "creditBookUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

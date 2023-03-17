@@ -1,0 +1,10 @@
+{
+  "formId": "factorAssureInfoUpdateForm",
+  "formName": "factorAssureInfoUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

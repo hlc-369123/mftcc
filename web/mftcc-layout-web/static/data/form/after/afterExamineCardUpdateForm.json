@@ -1,0 +1,106 @@
+{
+  "formId": "afterExamineCardUpdateForm",
+  "formName": "afterExamineCardUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+    {
+      "label": "检查卡编号",
+      "fieldName": "cardId",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入检查卡编号",
+      "readOnly": false,
+      "disabled": true,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "检查卡编号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "检查卡名称",
+      "fieldName": "cardName",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入检查卡名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "检查卡名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "检查卡描述",
+      "fieldName": "cardRemark",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入检查卡描述",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "检查卡描述不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "模型编号",
+      "fieldName": "modelId",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入模型编号",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "模型编号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    }
+  ]
+}

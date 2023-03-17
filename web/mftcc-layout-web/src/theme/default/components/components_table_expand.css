@@ -1,0 +1,50 @@
+.mftcc-table .isExpand.el-table--enable-row-hover .mftcc-form-expand .el-table__body tr:hover>td{
+  background: #F3F9FF;
+}
+.mftcc-table .isExpand .mftcc-form-expand .el-table__body tr:nth-child(even){
+  background: none;
+}
+.mftcc-table .isExpand .mftcc-form-expand .el-table__body tr td{
+  border:none;
+}
+/* .mftcc-table .mftcc-form-expand .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
+  content:""
+} */
+.mftcc-table .isExpand  .el-form-item__label{
+  color: #99a9bf;
+}
+.mftcc-table .isExpand  .el-form-item__content{
+  color: #606266;
+  padding-left: 12px;
+}
+.mftcc-table .isExpand .el-table__expanded-cell:hover{
+  background-color: #FFFFFF !important;
+}
+.mftcc-table .isExpand .expandEditForm .el-form-item__label{
+  line-height: 30px;
+}
+.mftcc-table .isExpand .expandEditForm .el-input__inner,.mftcc-table .isExpand .expandEditForm .el-input__icon,.mftcc-table .isExpand .expandEditForm .el-form-item__content{
+  height: 30px;
+  line-height: 30px;
+}
+.mftcc-table .isExpand .expandEditForm .el-input,.mftcc-table .isExpand .expandEditForm .el-textarea{
+  width: 250px;
+}
+.mftcc-table .isExpand .expandEditForm .el-table__body tr td{
+  padding: 4px 0;
+}
+.mftcc-table .isExpand .expandEditForm .el-tag--small{
+  height: 20px;
+  line-height: 20px;
+}
+.mftcc-table .isExpand .expandEditForm .el-select .el-tag__close.el-icon-close{
+  top: -1px;
+}
+.mftcc-table .isExpand .expandEditForm .el-input__inner:hover, .mftcc-table .isExpand .expandEditForm .el-textarea__inner:hover, .mftcc-table .isExpand .expandEditForm .el-select:hover .el-input__inner {
+  border: 1px solid #409EFF;
+  box-shadow: 0px 0px 5px 0px #409EFF;
+}
+.mftcc-table .isExpand .expandEditForm .el-form-item__error{
+  top: 5px;
+  left: 275px;
+}

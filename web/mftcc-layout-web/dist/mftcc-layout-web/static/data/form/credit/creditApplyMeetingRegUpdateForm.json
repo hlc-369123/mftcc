@@ -1,0 +1,210 @@
+{
+  "formId": "creditApplyMeetingRegUpdateForm",
+  "formName": "creditApplyMeetingRegUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+    {
+      "label": "流水号",
+      "fieldName": "id",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入流水号",
+      "readOnly": false,
+      "disabled": true,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "流水号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "授信申请主键id",
+      "fieldName": "creditAppId",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入授信申请主键id",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "授信申请主键id不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "审批人员编号",
+      "fieldName": "approveOpNo",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入审批人员编号",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "审批人员编号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "审批人员名称",
+      "fieldName": "approveOpName",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入审批人员名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "审批人员名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "审批类型 1-同意 2-不同意3-再议 4-复议 5-有条件同意",
+      "fieldName": "appType",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入审批类型 1-同意 2-不同意3-再议 4-复议 5-有条件同意",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "审批类型 1-同意 2-不同意3-再议 4-复议 5-有条件同意不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":2,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "审批意见",
+      "fieldName": "appIdea",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入审批意见",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "审批意见不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":2,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "创建时间时间（yyyy-mm-dd hh:mm:ss）",
+      "fieldName": "createTime",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入创建时间时间（yyyy-mm-dd hh:mm:ss）",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "创建时间时间（yyyy-mm-dd hh:mm:ss）不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":3,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    },
+    {
+      "label": "更新时间（yyyy-mm-dd hh:mm:ss）",
+      "fieldName": "updateTime",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入更新时间（yyyy-mm-dd hh:mm:ss）",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "更新时间（yyyy-mm-dd hh:mm:ss）不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":3,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    }
+  ]
+}

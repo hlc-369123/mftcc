@@ -1,0 +1,10 @@
+{
+  "formId": "configLprRateInsertForm",
+  "formName": "configLprRateInsertForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

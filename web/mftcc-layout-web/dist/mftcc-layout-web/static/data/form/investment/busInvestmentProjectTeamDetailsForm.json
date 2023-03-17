@@ -1,0 +1,682 @@
+{
+  "formId": "busInvestmentProjectTeamDetailsForm",
+  "formName": "busInvestmentProjectTeamDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+    {
+      "label": "成员编码",
+      "fieldName": "memberId",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入成员编码",
+      "readOnly": false,
+      "disabled": true,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "成员编码不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "立项项目编码",
+      "fieldName": "estabProjectId",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入立项项目编码",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "立项项目编码不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "项目编码",
+      "fieldName": "projectId",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入项目编码",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "项目编码不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "债权尽调编码",
+      "fieldName": "exhaustiveProjectId",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入债权尽调编码",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "债权尽调编码不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "股权尽调编码",
+      "fieldName": "optionalProjectId",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入股权尽调编码",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "股权尽调编码不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":2,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "尽调项目编码股权/债权/其他-技投",
+      "fieldName": "tunProjectId",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入尽调项目编码股权/债权/其他-技投",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "尽调项目编码股权/债权/其他-技投不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":2,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "成员编号",
+      "fieldName": "memberNo",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入成员编号",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "成员编号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":3,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "成员名称",
+      "fieldName": "memberName",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入成员名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "成员名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":3,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "成员部门编号",
+      "fieldName": "memberBrNo",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入成员部门编号",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "成员部门编号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":4,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "成员部门名称",
+      "fieldName": "memberBrName",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入成员部门名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "成员部门名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":4,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "成员所属公司",
+      "fieldName": "memberCorpName",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入成员所属公司",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "成员所属公司不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":5,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "联系电话",
+      "fieldName": "memberTel",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入联系电话",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "联系电话不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":5,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "加入时间",
+      "fieldName": "joinTime",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入加入时间",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "加入时间不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":6,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    },
+    {
+      "label": "离开时间",
+      "fieldName": "leaveTime",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入离开时间",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "离开时间不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":6,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    },
+    {
+      "label": "成员职责1-在团2-离开",
+      "fieldName": "memberState",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入成员职责1-在团2-离开",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "成员职责1-在团2-离开不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":7,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "成员职责-项目负责人/组员",
+      "fieldName": "memberType",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入成员职责-项目负责人/组员",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "成员职责-项目负责人/组员不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":7,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "主要职责",
+      "fieldName": "memberResponsible",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入主要职责",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "主要职责不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":8,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "小组类型-项目/尽调小组",
+      "fieldName": "teamType",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入小组类型-项目/尽调小组",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "小组类型-项目/尽调小组不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":8,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "创建人编号",
+      "fieldName": "createUserNo",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入创建人编号",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "创建人编号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":9,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "创建人名称",
+      "fieldName": "createUserName",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入创建人名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "创建人名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":9,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "创建人机构编号",
+      "fieldName": "createOrgNo",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入创建人机构编号",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "创建人机构编号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":10,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "创建人机构名称",
+      "fieldName": "createOrgName",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入创建人机构名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "创建人机构名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":10,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "创建日期",
+      "fieldName": "createDate",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入创建日期",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "创建日期不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":11,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    },
+    {
+      "label": "创建时间",
+      "fieldName": "createTime",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入创建时间",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "创建时间不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":11,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    },
+    {
+      "label": "更新日期",
+      "fieldName": "updateDate",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入更新日期",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "更新日期不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":12,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    },
+    {
+      "label": "更新时间",
+      "fieldName": "updateTime",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入更新时间",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "更新时间不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":12,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    },
+    {
+      "label": "法人机构号",
+      "fieldName": "corpId",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入法人机构号",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "法人机构号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":13,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    }
+  ]
+}

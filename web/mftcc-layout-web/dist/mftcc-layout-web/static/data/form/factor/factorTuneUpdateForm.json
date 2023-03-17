@@ -1,0 +1,10 @@
+{
+  "formId": "factorTuneUpdateForm",
+  "formName": "factorTuneUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

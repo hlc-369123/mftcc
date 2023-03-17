@@ -1,0 +1,29 @@
+.dialog-header {
+  color: #fff;
+}
+.dialog_max_btn {
+  font-family: "zq-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  background: none !important;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 12px;
+  right: 45px;
+  cursor: pointer;
+  color: #fff;
+}
+.dialog_max_btn.ret:before {
+  content: "\e629";
+}
+.dialog_max_btn.max:before {
+  content: "\e62a";
+}
+.treeDialog .el-input__inner {
+  height: 30px;
+  margin-top: 3px;
+}
+.treeDialog .el-input__suffix {
+  top: -2px;
+}

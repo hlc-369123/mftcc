@@ -1,0 +1,31 @@
+{
+  "name": "mftcc-sys-web",
+  "version": "1.0.0",
+  "author": "mftcc",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "node  --max_old_space_size=10000000 build/build.js"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@antv/g6": "^3.5.9",
+    "mftcc-router-npm": "^1.0.6",
+    "single-spa-vue": "^2.1.0",
+    "systemjs-webpack-interop": "^2.3.4",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "devDependencies": {
+    "mftcc-dev-npm": "^1.2.0"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

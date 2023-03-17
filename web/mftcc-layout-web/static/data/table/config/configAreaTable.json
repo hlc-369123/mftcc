@@ -1,0 +1,205 @@
+{
+  "tableId":"configAreaTable",
+  "tableName": "省市县区域表",
+  "isAutoHeight": true,
+  "height":"auto",
+  "isSelect": false,
+  "url":"/mftcc-config-server/area/configArea/findByPage",
+  "isPagination": true,
+  "isExport": false,
+  "isLoading": true,
+  "isDColumn": true,
+  "isCustomQuery": false,
+  "modelType": "dynamicModel",
+  "isDynamicQuery": true,
+  "queryTabs": [],
+  "dynamicQuery": {
+    "prop": "dynamicQueryProp",
+    "fieldType": "dynamicQuery",
+    "fieldNames": [
+        "sheng",        "shengName",        "shi",        "shiName",        "qu",        "quName"    ]
+  },
+  "tabActiveName": "",
+  "customBtns": [
+    {
+      "callback": "insert",
+      "fieldType": "customBtn",
+      "label": "新增",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_insert"
+    }
+  ],
+  "isOptBtns": true,
+  "optBtns":[
+    {
+      "callback": "edit",
+      "fieldType": "optBtn",
+      "label": "修改",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_dit"
+    },
+    {
+      "callback": "delete",
+      "fieldType": "optBtn",
+      "label": "删除",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_delete"
+    }
+  ],
+  "columns": [
+    {
+      "prop": "sheng",
+      "label": "",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType" : "query"
+      },
+      "isHref": true,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": true,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "shengName",
+      "label": "",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": true,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "shi",
+      "label": "",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": true,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "shiName",
+      "label": "",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": true,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "qu",
+      "label": "",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": true,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "quName",
+      "label": "",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": true,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  }  ],
+  "tableData": []
+}

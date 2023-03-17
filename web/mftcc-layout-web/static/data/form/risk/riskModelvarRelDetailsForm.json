@@ -1,0 +1,258 @@
+{
+  "formId": "riskModelvarRelDetailsForm",
+  "formName": "riskModelvarRelDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+    {
+      "label": "模型编号",
+      "fieldName": "pkModelId",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入模型编号",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "模型编号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "变量名称",
+      "fieldName": "pkVarId",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入变量名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "变量名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "登记人名称",
+      "fieldName": "regOpName",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入登记人名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "登记人名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "登记人机构名称",
+      "fieldName": "regBrName",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入登记人机构名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "登记人机构名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "登记日期",
+      "fieldName": "regDt",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入登记日期",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "登记日期不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":2,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "登记时间",
+      "fieldName": "regTime",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入登记时间",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "登记时间不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":2,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    },
+    {
+      "label": "更新人名称",
+      "fieldName": "updOpName",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入更新人名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "更新人名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":3,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "更新人机构名称",
+      "fieldName": "updBrName",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入更新人机构名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "更新人机构名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":3,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "更新日期",
+      "fieldName": "updDt",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入更新日期",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "更新日期不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":4,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "更新时间",
+      "fieldName": "updTime",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入更新时间",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "更新时间不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":4,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    }
+  ]
+}

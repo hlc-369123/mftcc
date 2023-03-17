@@ -1,0 +1,34 @@
+{
+  "formId": "sysMsgSearchForm",
+  "formName": "sysMsgSearchForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "columns": 2,
+  "formItem": [
+    {
+      "label": "信息码",
+      "fieldName": "msgCode",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入信息码",
+      "switchValue": {"activeValue": 1,"inActiveValue": 0},
+      "dicKey": "",
+      "dicItem": [
+        {"optCode": "","optName": ""}
+      ],
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[],
+      "events":[
+        {"type": "","callback": ""}
+      ],
+      "dateFormat":{
+        "format": "",
+        "valueFormat" : ""
+      },
+      "formatter": ""
+    }
+  ]
+}

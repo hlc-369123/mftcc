@@ -1,0 +1,205 @@
+{
+  "tableId":"guaranteeChannelRepayApplyTable",
+  "tableName": "银行还款申请表",
+  "isAutoHeight": true,
+  "height":"auto",
+  "isSelect": false,
+  "url":"/mftcc-guarantee-server/due/guaranteeChannelRepayApply/findByPage",
+  "isPagination": true,
+  "isExport": false,
+  "isLoading": true,
+  "isDColumn": true,
+  "isCustomQuery": false,
+  "modelType": "dynamicModel",
+  "isDynamicQuery": true,
+  "queryTabs": [],
+  "dynamicQuery": {
+    "prop": "dynamicQueryProp",
+    "fieldType": "dynamicQuery",
+    "fieldNames": [
+        "ctrNo",        "cusName"    ]
+  },
+  "tabActiveName": "",
+  "customBtns": [
+    {
+      "callback": "insert",
+      "fieldType": "customBtn",
+      "label": "新增",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_insert"
+    }
+  ],
+  "isOptBtns": true,
+  "optBtns":[
+    {
+      "callback": "edit",
+      "fieldType": "optBtn",
+      "label": "修改",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_dit"
+    },
+    {
+      "callback": "delete",
+      "fieldType": "optBtn",
+      "label": "删除",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_delete"
+    }
+  ],
+  "columns": [
+    {
+      "prop": "ctrNo",
+      "label": "合同展示号",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType" : "query"
+      },
+      "isHref": true,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "cusName",
+      "label": "客户名称",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "recvAmtSys",
+      "label": "本次系统实际收到还款合计总额",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "repayDate",
+      "label": "还款日期",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "prcpSum",
+      "label": "本次申请还款本金总额",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "normIntstSum",
+      "label": "本次申请还款正常利息（不包括减免的）",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  }  ],
+  "tableData": []
+}

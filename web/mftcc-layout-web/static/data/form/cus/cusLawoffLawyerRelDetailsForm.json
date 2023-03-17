@@ -1,0 +1,10 @@
+{
+  "formId": "cusLawoffLawyerRelDetailsForm",
+  "formName": "cusLawoffLawyerRelDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

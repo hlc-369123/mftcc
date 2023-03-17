@@ -1,0 +1,10 @@
+{
+  "formId": "factorPactUpdateForm",
+  "formName": "factorPactUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

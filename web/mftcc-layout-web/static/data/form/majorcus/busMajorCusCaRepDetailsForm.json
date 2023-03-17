@@ -1,0 +1,230 @@
+{
+  "formId": "busMajorCusCaRepDetailsForm",
+  "formName": "busMajorCusCaRepDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+    {
+      "label": "草案编号",
+      "fieldName": "caId",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入草案编号",
+      "readOnly": false,
+      "disabled": true,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "草案编号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "草案名称",
+      "fieldName": "caName",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入草案名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "草案名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "大客户",
+      "fieldName": "cusName",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入大客户",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "大客户不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "项目总数",
+      "fieldName": "totalPro",
+      "fieldType": "text",
+      "dataType": "int",
+      "value": "",
+      "placeholder": "请输入项目总数",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "项目总数不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "总投资",
+      "fieldName": "totalInvest",
+      "fieldType": "text",
+      "dataType": "double(6)",
+      "value": "",
+      "placeholder": "请输入总投资",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "总投资不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":2,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "入库时间",
+      "fieldName": "insertDate",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入入库时间",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "入库时间不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":2,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    },
+    {
+      "label": "创建人编号",
+      "fieldName": "createUserNo",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入创建人编号",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "创建人编号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":3,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "创建人名称",
+      "fieldName": "createUserName",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入创建人名称",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "创建人名称不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":3,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "当前状态",
+      "fieldName": "curStatus",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入当前状态",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "当前状态不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":4,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    }
+  ]
+}

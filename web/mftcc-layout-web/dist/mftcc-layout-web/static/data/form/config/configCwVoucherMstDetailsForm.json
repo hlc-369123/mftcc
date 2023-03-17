@@ -1,0 +1,10 @@
+{
+  "formId": "configCwVoucherMstDetailsForm",
+  "formName": "configCwVoucherMstDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

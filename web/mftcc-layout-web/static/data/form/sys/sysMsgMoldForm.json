@@ -1,0 +1,116 @@
+{
+    "formId":"sysMsgMoleForm",
+    "formName": "sysMsgMoleForm",
+    "formDisabled": false,
+    "labelPosition": "right",
+    "columns": 1,
+    "formItem": [
+      {
+        "label": "数据主键",
+        "fieldName": "moldId",
+        "fieldType": "text",
+        "dataType": "String",
+        "value": "",
+        "placeholder": "主键自动生成...",
+        "switchValue": {"activeValue": 1,"inActiveValue": 0},
+        "dicKey": "",
+        "dicItem": [
+          {"optCode": "","optName": ""}
+        ],
+        "readOnly": false,
+        "disabled": true,
+        "isShow": true,
+        "rules":[
+        ],
+        "events":[
+          {"type": "","callback": ""}
+        ],
+        "dateFormat":{  
+          "format": "",
+          "valueFormat" : ""
+        },
+        "formatter": ""
+      },
+      {
+        "label": "父级菜单",
+        "fieldName": "pid",
+        "fieldType": "select",
+        "dataType": "",
+        "value": "",
+        "placeholder": "",
+        "switchValue": {"activeValue": 1,"inActiveValue": 0},
+        "dicKey": "",
+        "dicItem": [
+          {"optCode": "","optName": "" }
+        ],
+        "readOnly": false,
+        "disabled": true,
+        "isShow": true,
+        "rules":[
+          {"type": "required", "message": "", "trigger": "change"}
+        ],
+        "events":[
+          {"type": "","callback": ""}
+        ],
+        "dateFormat":{  
+          "format": "",
+          "valueFormat" : ""
+        },
+        "formatter": ""
+      },
+      {
+        "label": "类型名称",
+        "fieldName": "moldName",
+        "fieldType": "text",
+        "dataType": "String",
+        "value": "",
+        "placeholder": "",
+        "switchValue": {"activeValue": "1","inActiveValue": "0"},
+        "dicKey": "YES_NO",
+        "dicItem": [
+          {"optCode": "","optName": ""}
+        ],
+        "readOnly": false,
+        "disabled": false,
+        "isShow": true,
+        "rules":[
+          {"type": "required", "message": "", "trigger": "blur"}
+        ],
+        "events":[
+          {"type": "","callback": ""}
+        ],
+        "dateFormat":{  
+          "format": "",
+          "valueFormat" : ""
+        },
+        "formatter": ""
+      },
+      {
+        "label": "类型描述",
+        "fieldName": "moldCnt",
+        "fieldType": "text",
+        "dataType": "String",
+        "value": "",
+        "placeholder": "",
+        "switchValue": {"activeValue": "1","inActiveValue": "0"},
+        "dicKey": "YES_NO",
+        "dicItem": [
+          {"optCode": "","optName": ""}
+        ],
+        "readOnly": false,
+        "disabled": false,
+        "isShow": true,
+        "rules":[
+          {"type": "required", "message": "", "trigger": "blur"}
+        ],
+        "events":[
+          {"type": "","callback": ""}
+        ],
+        "dateFormat":{  
+          "format": "",
+          "valueFormat" : ""
+        },
+        "formatter": ""
+      }
+    ]
+  }

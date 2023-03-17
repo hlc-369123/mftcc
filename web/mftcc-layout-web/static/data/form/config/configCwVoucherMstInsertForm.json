@@ -1,0 +1,10 @@
+{
+  "formId": "configCwVoucherMstInsertForm",
+  "formName": "configCwVoucherMstInsertForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

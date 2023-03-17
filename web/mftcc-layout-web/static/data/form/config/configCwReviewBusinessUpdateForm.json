@@ -1,0 +1,10 @@
+{
+  "formId": "configCwReviewBusinessUpdateForm",
+  "formName": "configCwReviewBusinessUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "tableId":"evalIndexValueTable",
+  "tableName": "指标结果表",
+  "isAutoHeight": true,
+  "height":"auto",
+  "isSelect": false,
+  "url":"/mftcc-cus-server/eval/evalIndexValue/findByPage",
+  "isPagination": true,
+  "isExport": false,
+  "isLoading": true,
+  "isDColumn": true,
+  "isCustomQuery": false,
+  "modelType": "dynamicModel",
+  "isDynamicQuery": true,
+  "queryTabs": [],
+  "dynamicQuery": {
+    "prop": "dynamicQueryProp",
+    "fieldType": "dynamicQuery",
+    "fieldNames": [
+        "indexName"    ]
+  },
+  "tabActiveName": "",
+  "customBtns": [
+    {
+      "callback": "insert",
+      "fieldType": "customBtn",
+      "label": "新增",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_insert"
+    }
+  ],
+  "isOptBtns": true,
+  "optBtns":[
+    {
+      "callback": "edit",
+      "fieldType": "optBtn",
+      "label": "修改",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_dit"
+    },
+    {
+      "callback": "delete",
+      "fieldType": "optBtn",
+      "label": "删除",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_delete"
+    }
+  ],
+  "columns": [
+    {
+      "prop": "indexName",
+      "label": "指标名称",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType" : "query"
+      },
+      "isHref": true,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "indexType",
+      "label": "指标类型1-定量2-定性3-财务4-调整",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "indexDesc",
+      "label": "指标描述",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "indexValue",
+      "label": "指标值",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "indexScore",
+      "label": "指标得分",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "registerFlag",
+      "label": "是否已登记0-否1-是",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  }  ],
+  "tableData": []
+}

@@ -1,0 +1,57 @@
+{
+    "tableId":"approvalList",
+    "tableName": "approvalList",
+    "height":"auto",
+    "url":"/mftcc-flowable-server/appcenter/getSysTaskInfo",
+    "isPagination": true,
+    "isLoading": true,
+    "isDColumn":false,
+    "columns": [
+        {
+        "prop":"TASK_ID",
+        "label": "任务ID",
+        "width": "100px",
+        "isShow": false
+    },{
+        "prop": "TASK_NAME",
+        "label": "任务名称",
+        "width": "150px",
+        "isShow": true
+    },{
+        "prop": "TASK_TYPE",
+        "label": "任务类型",
+        "width": "150px",
+        "isShow": true
+    },{
+        "prop": "BIZ_NAME",
+        "label": "业务名称",
+        "width": "150px",
+        "isShow": false
+    },{
+        "prop": "BIZ_TYPE",
+        "label": "业务类型",
+        "width": "150px",
+        "isShow": false
+    },{
+        "prop": "CREATE_TIME",
+        "label": "开始时间",
+        "width": "150px",
+        "isShow": true
+    },
+    {
+        "prop": "",
+        "label": "操作",
+        "width": "380px",
+        "data": [{
+            "label": "分配",
+            "type": "app",
+            "perm": ""
+        },
+        {
+            "label": "时间轴",
+            "type": "timeLine",
+            "perm": ""
+        }]
+    }],
+    "tableData": []
+}

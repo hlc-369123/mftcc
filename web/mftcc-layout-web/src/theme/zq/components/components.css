@@ -1,0 +1,111 @@
+.mftcc-table .el-table th{
+    background-color: #F9FAFC;
+    border: none;
+    border-bottom: 1px solid #e8e8e8;
+    height: 40px;
+    line-height: 40px;
+}
+.mftcc-table .el-table__body tr:nth-child(even){
+    background: #FFF;
+}
+.mftcc-table .el-table__body tr td{
+    border-bottom: 1px solid #e8e8e8;
+}
+.mftcc-form-buttom,.mftcc-table{
+    margin: 0;
+}
+.mftcc-form .el-form-item__label{
+    background: none;
+    height: 45px;
+}
+.mftcc-form .el-select .el-input .el-select__caret{
+    line-height: 36px;
+}
+.mftcc-form .el-form-item{
+    min-height: initial;
+    margin-bottom: 22px;
+}
+.mftcc-form .el-table__body td{
+    height: initial;
+}
+.mftcc-form .el-table__body .el-table__row,.mftcc-form .el-form-item__content{
+    border: none;
+}
+.mftcc-form .el-input__inner{
+    border: 1px solid #dcdfe6;
+    height: 36px !important;
+    line-height: 36px;
+}
+.mftcc-form .el-form-item__error{
+    top: auto;
+    left: auto;
+    right: auto;
+    z-index: 99;
+    bottom: -12px;
+    padding-left: 10px;
+}
+.mftcc-form .el-input__inner:hover {
+    border-color: #c0c4cc;
+}
+.mftcc-form .el-textarea__inner{
+    border: 1px solid #dcdfe6;
+}
+.mftcc-form .el-textarea__inner:hover {
+    border-color: #c0c4cc;
+}
+.mftcc-form .el-input.is-active .el-input__inner,.mftcc-form  .el-input__inner:focus,
+.mftcc-form .el-input.is-active .el-textarea__inner,.mftcc-form  .el-textarea__inner:focus {
+    border-color: #409eff;
+    outline: 0;
+}
+
+.mftcc-form .el-form-item__content .el-input:hover, .mftcc-form .el-form-item__content .el-textarea:hover, .mftcc-form .el-form-item__content .el-input:focus-within, .mftcc-form .el-form-item__content .el-textarea:focus-within,
+.mftcc-form .is-error .el-form-item__content .el-input, .mftcc-form .is-error .el-form-item__content .el-textarea{
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+.mftcc-form .el-form-item.is-error .el-input__inner,.mftcc-form .el-form-item.is-error .el-input__inner:focus, .mftcc-form .el-form-item.is-error .el-textarea__inner, .mftcc-form .el-form-item.is-error .el-textarea__inner:focus, .el-message-box__input input.invalid, .el-message-box__input input.invalid:focus {
+    border-color: #f56c6c;
+}
+
+
+
+
+
+/* 标准只读 start */
+.el-select .el-input.is-disabled .el-input__inner:hover{
+    border-color: transparent;
+}
+.el-select .el-input.is-disabled .el-input__suffix{
+    display: none;
+}
+.mftcc-form .is-disabled .el-form-item{
+    margin-bottom: 0px;
+}
+.mftcc-form .is-disabled .el-form-item__label:before{
+    display: none;
+}
+.mftcc-form .is-disabled .el-input__inner::-webkit-input-placeholder { /* WebKit browsers */
+  color: transparent;
+}
+.mftcc-form .is-disabled .el-input__inner::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: transparent;
+}
+.mftcc-form .is-disabled .el-input__inner:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: transparent;
+}  
+.mftcc-form .is-disabled .el-textarea__inner::-webkit-input-placeholder { /* WebKit browsers */
+  color: transparent;
+}
+.mftcc-form .is-disabled .el-textarea__inner::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: transparent;
+}
+.mftcc-form .is-disabled .el-textarea__inner:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: transparent;
+}  
+/* 标准只读 end */
+
+.appDialog .mftcc-container .el-container{
+    padding: 0;
+    width: auto;
+}

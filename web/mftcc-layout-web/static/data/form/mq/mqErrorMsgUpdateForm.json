@@ -1,0 +1,10 @@
+{
+  "formId": "mqErrorMsgUpdateForm",
+  "formName": "mqErrorMsgUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

@@ -1,0 +1,192 @@
+/*表单样式*/
+.mftcc-form-query .el-form-item {
+  margin-bottom: 0px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin: 7px 0px;
+}
+
+.mftcc-form-query .el-col {
+  background: #fff;
+}
+section.el-container {
+  border: none !important;
+}
+.mftcc-form-query .el-input.is-disabled .el-input__inner {
+  border: none;
+  background: none;
+  color: #666;
+  cursor: text;
+  line-height: 20px;
+  height: 20px;
+  padding: 0 10px;
+}
+.mftcc-form-query .el-form-item__content,
+.mftcc-form-query .el-form-item__label,
+.mftcc-table .mftcc-form-expand.query .el-form-item__label,
+.mftcc-table .mftcc-form-expand.query .el-form-item__content {
+  padding-left: 10px;
+  width: 100%;
+  line-height: 24px;
+  /* height: 24px; */
+  border-bottom: none;
+  /* display: flex;
+  align-items: center; */
+}
+.mftcc-form-query .el-form-item__label,
+.mftcc-table .mftcc-form-expand.query .el-form-item__label {
+  height: auto;
+  line-height: 24px;
+  min-height: 24px;
+}
+.mftcc-form-query .el-table__body {
+  border: none;
+  border-bottom: 0;
+}
+.mftcc-form-query .el-table__body .el-alert--success.is-dark {
+  background: #edf2fa;
+  margin-bottom: 0 !important;
+  border-bottom: 1px solid #e1e2e3;
+  border-right: 1px solid #e1e2e3;
+  border-left: 1px solid #e1e2e3;
+  border-radius: 0;
+  position: relative;
+  left: 1px;
+  color: #3d3d3d;
+}
+.mftcc-form-query
+  .el-table__body
+  tr:last-child
+  td
+  .el-form-item__content:last-child,
+.mftcc-form-query
+  .el-table__body
+  tr:last-child
+  td
+  .el-form-item__content:last-child
+  .el-form-item__label {
+  border-bottom: 0;
+}
+.mftcc-form-query .el-checkbox.is-disabled,
+.mftcc-form-query .el-radio.is-disabled {
+  display: none;
+  margin-right: 0;
+}
+.mftcc-form-query .el-checkbox.is-disabled.is-checked,
+.mftcc-form-query .el-radio.is-disabled.is-checked {
+  display: inline-block;
+}
+.mftcc-form-query .el-checkbox.is-disabled.is-checked .el-checkbox__input,
+.mftcc-form-query .el-radio.is-disabled.is-checked .el-radio__input {
+  display: none;
+}
+.mftcc-form-query .el-checkbox.is-disabled.is-checked .el-checkbox__label,
+.mftcc-form-query .el-radio.is-disabled.is-checked .el-radio__label {
+  display: block;
+  color: #666;
+  cursor: text;
+  padding-left: 0;
+}
+.mftcc-form-query
+  .el-checkbox.is-disabled.is-checked
+  .el-checkbox__label:after {
+  content: "|";
+  margin: 0 6px;
+}
+.mftcc-form-query
+  .el-checkbox.is-disabled[class~="is-checked"]:last-of-type
+  .el-checkbox__label:after {
+  content: "";
+}
+.mftcc-form-query .el-textarea__inner,
+.mftcc-form-expand.query .el-textarea__inner,
+.mftcc-form-query .el-cascader .el-input__inner,
+.mftcc-form-expand.query .el-cascader .el-input__inner,
+.mftcc-form-query .el-cascader,
+.mftcc-form-expand.query .el-cascader {
+  border: none;
+  resize: none;
+  background: transparent;
+  padding: 0;
+  font-family: inherit;
+  height: auto;
+  line-height: normal;
+}
+.mftcc-form-query .el-cascader .el-input__suffix,
+.mftcc-form-expand.query .el-cascader .el-input__suffix {
+  display: none;
+}
+.mftcc-form-query .el-cascader,
+.mftcc-form-expand.query .el-cascader {
+  pointer-events: none;
+  width: 100%;
+}
+.mftcc-form-expand.query .el-input__count {
+  display: none;
+}
+.mftcc-form-query .el-input.is-disabled .el-input__icon {
+  display: none;
+}
+.mftcc-form-query .el-input--prefix .el-input__inner {
+  padding-left: 10px;
+}
+.mftcc-form-query .el-radio {
+  line-height: 34px;
+}
+.mftcc-form-query .el-checkbox-group,
+.mftcc-form-query .el-radio-group {
+  padding-left: 10px;
+}
+.mftcc-form-query.el-form--label-top .el-form-item__label,
+.mftcc-table .mftcc-form-expand.query.el-form--label-top .el-form-item__label {
+  position: relative;
+  padding-bottom: 0;
+  padding-left: 10px;
+  width: 100%;
+  /* background: #FAFAFA; */
+  color: #255689;
+  font-size: 16px;
+}
+.mftcc-form-query .el-table--enable-row-hover .el-table__body tr:hover > td {
+  background-color: transparent !important;
+}
+
+.mftcc-form-query.el-form--label-top
+  .el-form-item__label
+  .mftcc-form-query.el-form--label-top
+  .el-form-item__label:before {
+  left: 0px !important;
+  position: absolute;
+}
+.mftcc-form-query .el-switch.is-disabled:after {
+  content: "否";
+  color: #666;
+  padding-left: 10px;
+}
+.mftcc-form-query .el-switch.is-disabled {
+  opacity: 1;
+}
+.mftcc-form-query .el-switch.is-disabled.is-checked:after {
+  content: "是";
+}
+.mftcc-form-query .el-switch.is-disabled .el-switch__core {
+  display: none;
+}
+.mftcc-form-query .el-textarea.is-disabled .el-textarea__inner {
+  background: none;
+  cursor: text;
+}
+.mftcc-form-query .el-form-item__content {
+  padding-left: 10px;
+  width: auto;
+}
+.mftcc-form-query .el-form-item__content span {
+  padding-right: 20px;
+  display: block;
+  color: #3d3d3d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mftcc-form-query .el-table .cell {
+  padding: 0px;
+}

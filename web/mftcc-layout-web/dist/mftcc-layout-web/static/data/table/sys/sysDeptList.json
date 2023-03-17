@@ -1,0 +1,246 @@
+{
+  "isPagination": true,
+  "columns": [
+    {
+      "prop": "brNo",
+      "isAutoWidth": true,
+      "width": "",
+      "minWidth": "",
+      "isShow": true,
+      "href": {
+        "path": "/sys/dept/sysDeptDetails",
+        "query": "brId-${brId}"
+      },
+      "isHref": true,
+      "fixed": "",
+      "align": "left",
+      "show-overflow-tooltip": false,
+      "isQuery": false,
+      "queryType": "2",
+      "queryTableAlias": "",
+      "value": "",
+      "rules": [],
+      "fieldType": "text",
+      "dataType": "",
+      "label": "机构号",
+      "formatter": "",
+      "desensitization": "",
+      "height": "20px"
+    },
+    {
+      "prop": "brName",
+      "isAutoWidth": true,
+      "width": "",
+      "minWidth": "",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+      "fixed": "",
+      "align": "left",
+      "show-overflow-tooltip": false,
+      "isQuery": true,
+      "queryType": "2",
+      "queryTableAlias": "",
+      "value": "",
+      "rules": [],
+      "fieldType": "text",
+      "dataType": "",
+      "label": "机构简称",
+      "formatter": "",
+      "desensitization": "",
+      "height": "20px"
+    },
+    {
+      "prop": "coreBrNo",
+      "isAutoWidth": true,
+      "width": "",
+      "minWidth": "",
+      "isShow": false,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+      "fixed": "",
+      "align": "left",
+      "show-overflow-tooltip": false,
+      "isQuery": false,
+      "queryType": "2",
+      "queryTableAlias": "",
+      "value": "",
+      "rules": [],
+      "fieldType": "text",
+      "dataType": "",
+      "label": "核心机构号",
+      "formatter": "",
+      "desensitization": "",
+      "height": "20px"
+    },
+    {
+      "prop": "brFinCode",
+      "isAutoWidth": true,
+      "width": "",
+      "minWidth": "",
+      "isShow": false,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+      "fixed": "",
+      "align": "left",
+      "show-overflow-tooltip": false,
+      "isQuery": false,
+      "queryType": "2",
+      "queryTableAlias": "",
+      "value": "",
+      "rules": [],
+      "fieldType": "text",
+      "dataType": "",
+      "label": "金融机构代码",
+      "formatter": "",
+      "desensitization": "",
+      "height": "20px"
+    },
+    {
+      "prop": "brPayCode",
+      "isAutoWidth": true,
+      "width": "",
+      "minWidth": "",
+      "isShow": false,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+      "fixed": "",
+      "align": "left",
+      "show-overflow-tooltip": false,
+      "isQuery": false,
+      "queryType": "2",
+      "queryTableAlias": "",
+      "value": "",
+      "rules": [],
+      "fieldType": "text",
+      "dataType": "",
+      "label": "支付系统行号",
+      "formatter": "",
+      "desensitization": "",
+      "height": "20px"
+    },
+    {
+      "prop": "brSts",
+      "isAutoWidth": true,
+      "width": "",
+      "minWidth": "",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+      "fixed": "",
+      "align": "left",
+      "show-overflow-tooltip": false,
+      "isQuery": true,
+      "queryType": "2",
+      "queryTableAlias": "",
+      "value": "1",
+      "rules": [],
+      "fieldType": "select",
+      "dataType": "",
+      "label": "机构状态",
+      "optionType": "2",
+      "library": {
+        "showField": "",
+        "url": "",
+        "realField": ""
+      },
+      "dicKey": "PLT_STS",
+      "dicItem": []
+    },
+    {
+      "prop": "",
+      "isAutoWidth": true,
+      "width": "",
+      "minWidth": "",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+      "fixed": "",
+      "align": "left",
+      "show-overflow-tooltip": false,
+      "isQuery": false,
+      "queryType": "2",
+      "queryTableAlias": "",
+      "value": "",
+      "rules": [],
+      "fieldType": "text",
+      "dataType": "",
+      "label": "操作",
+      "formatter": "",
+      "desensitization": "",
+      "data": [
+        {
+          "label": "修改",
+          "type": "edit"
+        },
+        {
+          "label": "删除",
+          "type": "delete"
+        }
+      ],
+      "height": "20px"
+    }
+  ],
+  "isOptBtns": true,
+  "tableData": [],
+  "modelType": "queryModel",
+  "queryTabs": [],
+  "dynamicQuery": {
+    "prop": "dynamicQueryProp",
+    "fieldNames": [],
+    "fieldType": "dynamicQuery"
+  },
+  "url": "/mftcc-sys-server/sys/sysDept/findByPage4admin",
+  "tableName": "组织机构列表",
+  "isLoading": true,
+  "isDynamicQuery": true,
+  "isDColumn": false,
+  "tabActiveName": "0",
+  "tableId": "sysDeptList",
+  "customBtns": [],
+  "searchColCut": 2,
+  "optBtns": [
+    {
+      "perm": "",
+      "prop": "optBtn_1602558947961",
+      "noShowParams": "",
+      "callback": "edit",
+      "label": "修改",
+      "fieldType": "optBtn"
+    },
+    {
+      "perm": "",
+      "prop": "optBtn_1602558948574",
+      "noShowParams": "",
+      "callback": "delete",
+      "label": "删除",
+      "fieldType": "optBtn"
+    }
+  ],
+  "height": "auto",
+  "isAutoHeight": true
+}

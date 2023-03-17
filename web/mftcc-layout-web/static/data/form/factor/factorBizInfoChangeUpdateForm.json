@@ -1,0 +1,10 @@
+{
+  "formId": "factorBizInfoChangeUpdateForm",
+  "formName": "factorBizInfoChangeUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

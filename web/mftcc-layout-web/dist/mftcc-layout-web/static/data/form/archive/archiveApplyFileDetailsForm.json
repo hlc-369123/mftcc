@@ -1,0 +1,10 @@
+{
+  "formId": "archiveApplyFileDetailsForm",
+  "formName": "archiveApplyFileDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

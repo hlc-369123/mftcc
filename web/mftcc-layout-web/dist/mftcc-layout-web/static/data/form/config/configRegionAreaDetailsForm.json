@@ -1,0 +1,10 @@
+{
+  "formId": "configRegionAreaDetailsForm",
+  "formName": "configRegionAreaDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

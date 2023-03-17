@@ -1,0 +1,534 @@
+.uni_entrance{
+    padding-left:23px;
+    padding-right:23px;
+    min-width: 1200px;
+
+    font-family: PingFangSC-Semibold, PingFang SC;
+
+}
+
+.uni_entrance .row_space {
+    margin-bottom: 12px;
+
+  }
+.uni_entrance .el-col {
+    border-radius: 4px;
+}
+
+.uni_entrance .grid-content {
+    /* background-color: antiquewhite; */
+    height: 460px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+
+}
+.uni_entrance .grid-bus-content {
+    /* background-color: antiquewhite; */
+
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding-bottom:64px;
+
+
+}
+/*客户中心信息块*/
+.uni_entrance .cusInfoBlock{
+    background: -webkit-linear-gradient(#409eff, #A4D1Ff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#409eff, #A4D1Ff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#409eff, #A4D1Ff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#409eff, #A4D1Ff); /* 标准的语法 */
+
+}
+
+.margin_top_block{
+    margin-bottom:24px;
+}
+
+.margin_first_block{
+  margin-top:24px;
+}
+
+
+.cusInfoBlock .cusContent{
+    margin-top: 67px;
+    width: 100%;
+    height: 275px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px 0px rgba(35, 103, 194, 0.5);
+    border-radius: 8px;
+
+
+}
+
+
+.uni_entrance .cusInfoBlock .cusHeadImg-box{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.uni_entrance .cusInfoBlock .cusHeadImg-box .cusName{
+
+
+    text-align:center;
+    font-size: 18px;
+
+    font-weight: 600;
+    color: #141414;
+
+}
+
+
+.uni_entrance .cusInfoBlock .cusHeadImg-box .wordContent{
+
+    position: absolute;
+    top: 77px;
+    width:100%;
+
+}
+
+
+
+.uni_entrance .cusInfoBlock .cusHeadImg{
+    text-align:center;
+    position:absolute;
+    height: 128px;
+    top:-53px;
+    width: 100%;
+
+}
+
+.uni_entrance .cusInfoBlock .cusDept{
+    text-align: center;
+
+    height: 24px;
+    font-size: 14px;
+    /* font-family: PingFangSC-Regular, PingFang SC; */
+    font-weight: 400;
+    color: #2A2A2A;
+    line-height: 24px;
+}
+.uni_entrance .cusInfoBlock .cusDept img{
+    margin-right: 8px;
+    width: 15px;
+    height: 15px;
+}
+
+.uni_entrance .cusInfoBlock .phone{
+    margin-top: 16px;
+    text-align: center;
+    height: 20px;
+    font-size: 14px;
+    /* font-family: PingFangSC-Regular, PingFang SC; */
+    font-weight: 400;
+    color: #2A2A2A;
+    line-height: 20px;
+}
+.uni_entrance .cusInfoBlock .phone i{
+    font-size: 16px;
+    margin-right:8px;
+}
+.uni_entrance .cusInfoBlock .el-icon-phone-outline{
+    margin-left:60px;
+}
+
+.uni_entrance .cusInfoBlock .otherFun{
+    margin-top: 24px;
+
+}
+.uni_entrance .cusInfoBlock .otherFun .imgDesc{
+    text-align:center;
+
+}
+.uni_entrance .cusInfoBlock .otherFun .wordDesc{
+    text-align:center;
+    height: 22px;
+    font-size: 16px;
+    /* font-family: PingFangSC-Regular, PingFang SC; */
+    font-weight: 400;
+    color: #141414;
+    line-height: 22px;
+
+}
+/** 金额信息样式**/
+.uni_entrance .amtBlock{
+
+}
+.blockTip{
+    margin-right: 16px;
+
+    width:100%;
+    margin-top:16px;
+
+
+
+}
+.blockTip .leftpart{
+    width: 85%;
+}
+.blockTip .leftpart .splitDiv{
+    width: 8px;
+    height: 27px;
+    margin-left:16px;
+    background: -webkit-linear-gradient(#409eff, #C0E1FD); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#409eff, #C0E1FD); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#409eff, #C0E1FD); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#409eff, #C0E1FD); /* 标准的语法 */
+    border-radius: 4px;
+
+}
+.blockTip .leftpart .tipText{
+    margin-left: 8px;
+    height: 25px;
+    width:auto;
+    font-size: 18px;
+    /* font-family: PingFangSC-Regular, PingFang SC; */
+    font-weight: 400;
+    color: #141414;
+    line-height: 25px;
+
+}
+.blockTip .rightPart{
+    width: 15%;
+    padding-right:16px;
+    text-align:right;
+    height: 22px;
+    font-size: 16px;
+    /* font-family: PingFangSC-Regular, PingFang SC; */
+    font-weight: 400;
+    color: #409EFF;
+    line-height: 22px;
+    cursor: pointer;
+
+}
+.uni_entrance .amtBlock .otherFun{
+    margin-top:35px;
+}
+
+.uni_entrance .amtBlock .amtDesc{
+    text-align:center;
+    height: 20px;
+    font-size: 14px;
+    /* font-family: PingFangSC-Regular, PingFang SC; */
+    font-weight: 400;
+    color: #2A2A2A;
+    line-height: 20px;
+}
+.uni_entrance .amtBlock .amtVal{
+    text-align:center;
+    margin-top:8px;
+    height: 28px;
+    font-size: 14px;
+    /* font-family: PingFangSC-Regular, PingFang SC; */
+    font-weight: 400;
+    color: #666666;
+    line-height: 36px;
+}
+.uni_entrance .amtBlock .amtVal span{
+    font-size: 36px;
+    /* font-family: PingFangSC-Medium, PingFang SC; */
+    font-weight: 500;
+    color: #D97E12;
+    margin-right:8px;
+ }
+ /**大屏报表的样式**/
+ .uni_entrance .report{
+    margin-top: 24px;
+    text-align: center;
+ }
+
+.uni_entrance .carousel{
+  margin-top: 50px;
+  text-align: center;
+}
+
+ .uni_entrance .report img{
+   width:78%;
+   height:97%;
+   max-width:100%;
+   max-height:100%;
+   border: 4px solid rgba(9, 42, 80, 0.16);
+ }
+
+.uni_entrance .reportLine img{
+  width:650px;
+  height:350px;
+  max-width:100%;
+  max-height:100%;
+}
+ /**消息块的样式**/
+ .uni_entrance .msg{
+
+ }
+ .margin_top_16{
+     margin-top: 16px;
+
+ }
+ .uni_entrance .msg .msgImg{
+     padding-top: 12px;
+     width:42px;
+     padding-bottom: 12px;
+     padding-left:16px;
+
+
+
+
+}
+.uni_entrance .msg table{
+    width:100%;
+
+
+
+}
+.uni_entrance .msg .msgImg img{
+    width: 42px;
+    height: 42px;
+    text-align: right;
+
+
+}
+.uni_entrance .msg .sepratorLine{
+    border-radius: 16px;
+    border-top: 1px solid #EBEBEB;
+    margin-top: 2px;
+}
+.uni_entrance .msg .msgInfo{
+
+
+
+
+}
+
+.margin_first_block img{
+  width: 60px;
+  height: 60px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.uni_entrance  .msgReplyTitle{
+  height: 22px;
+  font-size: 14px;
+  color: #44708e;
+  line-height: 22px;
+  font-family: PingFangSC-Medium, PingFang SC;
+}
+.uni_entrance  .msgReplyContent{
+  height: 20px;
+  margin-top: 4px;
+  font-size: 14px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 20px;
+  height:30px
+}
+
+.uni_entrance  .msgReplyContentUnread{
+  height: 20px;
+  margin-top: 4px;
+  font-size: 14px;
+  color: #141414;
+  font-weight: 600;
+  line-height: 20px;
+  height:30px
+}
+
+.uni_entrance .msgReplyTime{
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #b8b8b8;
+  line-height: 20px;
+  margin-top: 2px;
+}
+.uni_entrance  .msgTitle{
+  height: 22px;
+  font-size: 16px;
+  color: #141414;
+  font-weight: bold;
+  line-height: 22px;
+  font-family: PingFangSC-Medium, PingFang SC;
+}
+.uni_entrance  .msgContent{
+  height: 20px;
+  margin-top: 4px;
+  font-size: 14px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 39px;
+  height:30px
+}
+.uni_entrance .msgTime{
+  float:right;
+  width: 72%;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 20px;
+
+
+}
+/**功能入口**/
+.uni_entrance .busEntrance{
+
+}
+.uni_entrance .busEntrance .blockLayout{
+
+    justify-content: center;
+    display:flex;
+    margin-top:32px;
+    width: 136px;
+    margin-left: 48px;
+}
+.uni_entrance .busEntrance .busBlock{
+
+
+    width: 136px;
+    height: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    cursor: pointer;
+    }
+
+    .uni_entrance .busEntrance .busBlock .bus_img{
+
+        margin-top:24px;
+        text-align:center;
+        height: 40px;
+
+    }
+    .uni_entrance .busEntrance .busBlock .bus_desc{
+
+        margin-top:12px;
+        text-align:center;
+        height: 40px;
+        font-size: 14px;
+        /* font-family: PingFangSC-Regular, PingFang SC; */
+        font-weight: 400;
+        color: #3D3D3D;
+
+    }
+
+
+.busHeight{
+  height: 80px
+}
+
+.div_floatLeft{
+  float: left;
+}
+.uni_entrance  .sepratorLine .circleWidth{
+   width:39px;
+ }
+.uni_entrance .sepratorLine .contentWidth{
+  width: 21%;
+}
+
+.div_floatLeft .numDiv{
+  font-size:28px;
+  margin-left: 17px
+}
+
+.div_floatLeft .descDiv{
+  font-size:12px;
+  margin-left: 17px
+}
+.content-height{
+  height: 70px;
+  margin-top10:10px
+}
+.margin_left_33{
+    margin-left: 33px;
+  }
+.margin_top_10{
+  margin-top: 10px;
+  height: 30px;
+}
+.msgTime span{
+  float:right;
+  margin-right: 25px;
+}
+
+.el-col-click-cus{
+  margin-top: 2px;
+  cursor:pointer;
+  font-size: 12px;
+  margin-left: 34px;
+}
+
+.el-col-click{
+  margin-top: 2px;
+  cursor:pointer;
+   font-size: 12px;
+   color: #409EFF;
+   margin-left: 34px;
+ }
+.el-col-click-pointer{
+  cursor:pointer;
+  font-size: 12px;
+}
+.width_64{
+  width: 64px;
+}
+.gua{
+  padding-left: 20px;
+  float: left;
+  line-height:23px;
+  height: 25px;
+}
+.span_color_green{
+   color: #5cda60;
+ }
+
+.span_color_bule{
+  color: #5696D8;
+}
+.span_color_red{
+  color: red;
+}
+
+.circle_green{
+  width: 10px;
+  height: 10px;
+  margin-left: 16px;
+  background-color: #5cda60;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.circle_bule{
+  width: 10px;
+  height: 10px;
+  margin-left: 16px;
+  background-color: #5696D8;
+  display: inline-block;
+  border-radius: 50%
+}
+.circle_red{
+  width: 10px;
+  height: 10px;
+  margin-left: 16px;
+  background-color: red;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.myMsg_bottom{
+  padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+

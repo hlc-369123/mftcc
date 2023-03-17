@@ -1,0 +1,14 @@
+[
+  {
+    "menuId": "1",
+    "menuName": "贷款计算器",
+    "click": "fixMenu",
+    "menuIcon": "el-icon-s-platform"
+  },
+  {
+    "menuId": "2",
+    "menuName": "工具下载",
+    "click": "fixMenu",
+    "menuIcon": "el-icon-download"
+  }
+]

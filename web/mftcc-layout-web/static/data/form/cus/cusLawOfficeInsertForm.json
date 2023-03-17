@@ -1,0 +1,10 @@
+{
+  "formId": "cusLawOfficeInsertForm",
+  "formName": "cusLawOfficeInsertForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

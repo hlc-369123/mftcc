@@ -1,0 +1,10 @@
+{
+  "formId": "factorCapitalFlowUpdateForm",
+  "formName": "factorCapitalFlowUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

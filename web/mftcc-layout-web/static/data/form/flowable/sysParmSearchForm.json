@@ -1,0 +1,86 @@
+{
+    "formId":"parmSearchForm",
+    "formName": "parmSearchForm",
+    "formDisabled": false,
+    "labelPosition": "right",
+    "columns": 3,
+    "formItem": [
+      {
+        "label": "数据字典名",
+        "fieldName": "keyName",
+        "fieldType": "text",
+        "dataType": "String",
+        "value": "",
+        "placeholder": "",
+        "switchValue": {"activeValue": 1,"inActiveValue": 0},
+        "dicKey": "",
+        "dicItem": [
+          {"optCode": "","optName": ""}
+        ],
+        "readOnly": false,
+        "disabled": false,
+        "isShow": true,
+        "rules":[],
+        "events":[
+          {"type": "","callback": ""}
+        ],
+        "dateFormat":{  
+          "format": "",
+          "valueFormat" : ""
+        },
+        "formatter": ""
+      },
+      {
+        "label": "数据字典名称",
+        "fieldName": "keyCnt",
+        "fieldType": "text",
+        "dataType": "",
+        "value": "",
+        "placeholder": "",
+        "switchValue": {"activeValue": 1,"inActiveValue": 0},
+        "dicKey": "",
+        "dicItem": [
+          {"optCode": "","optName": "" }
+        ],
+        "readOnly": false,
+        "disabled": false,
+        "isShow": true,
+        "rules":[],
+        "events":[
+          {"type": "","callback": ""}
+        ],
+        "dateFormat":{  
+          "format": "",
+          "valueFormat" : ""
+        },
+        "formatter": ""
+      },
+      {
+        "label": "是否启用",
+        "fieldName": "sts",
+        "fieldType": "switch",
+        "dataType": "",
+        "value": "1",
+        "placeholder": "",
+        "switchValue": {"activeValue": "1","inActiveValue": "0"},
+        "dicKey": "YES_NO",
+        "dicItem": [
+          {"optCode": "","optName": ""}
+        ],
+        "readOnly": false,
+        "disabled": false,
+        "isShow": true,
+        "rules":[
+          {"type": "required", "message": "", "trigger": "blur"}
+        ],
+        "events":[
+          {"type": "","callback": ""}
+        ],
+        "dateFormat":{  
+          "format": "",
+          "valueFormat" : ""
+        },
+        "formatter": ""
+      }
+    ]
+  }

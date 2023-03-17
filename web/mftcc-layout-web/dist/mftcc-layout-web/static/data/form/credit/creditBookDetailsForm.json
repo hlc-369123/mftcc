@@ -1,0 +1,10 @@
+{
+  "formId": "creditBookDetailsForm",
+  "formName": "creditBookDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

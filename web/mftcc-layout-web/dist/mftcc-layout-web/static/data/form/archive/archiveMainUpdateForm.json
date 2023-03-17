@@ -1,0 +1,10 @@
+{
+  "formId": "archiveMainUpdateForm",
+  "formName": "archiveMainUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

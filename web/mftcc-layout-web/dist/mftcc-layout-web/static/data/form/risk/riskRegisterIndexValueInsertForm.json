@@ -1,0 +1,10 @@
+{
+  "formId": "riskRegisterIndexValueInsertForm",
+  "formName": "riskRegisterIndexValueInsertForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

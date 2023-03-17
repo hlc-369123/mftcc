@@ -1,0 +1,16 @@
+{
+    "formId":"modelSearch",
+    "formName": "modelSearch",
+    "formDisabled": false,
+    "labelPosition": "right",
+    "columns": 3,
+    "formItem": [
+        {
+            "label": "模型名称",
+            "fieldName": "name",
+            "fieldType": "text",
+            "value": "",
+            "placeholder": "请输入模型名称"
+        }
+    ]
+}

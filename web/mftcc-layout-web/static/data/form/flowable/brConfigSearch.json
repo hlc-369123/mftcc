@@ -1,0 +1,17 @@
+{
+    "formId":"searchForm",
+    "formName": "searchForm",
+    "formDisabled": false,
+    "labelPosition": "right",
+    "columns": 2,
+    "formItem": [
+        {
+            "label": "机构名称",
+            "fieldName": "brName",
+            "fieldType": "text",
+            "value": "",
+            "placeholder": "请输入机构名称"
+        }
+    ],
+    "formData":{}
+}

@@ -1,0 +1,10 @@
+{
+  "formId": "loanBizInfoChangeSubDetailsForm",
+  "formName": "loanBizInfoChangeSubDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "formId": "configCwVchRuleMstDetailsForm",
+  "formName": "configCwVchRuleMstDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

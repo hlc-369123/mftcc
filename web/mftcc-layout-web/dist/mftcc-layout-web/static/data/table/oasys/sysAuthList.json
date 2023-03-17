@@ -1,0 +1,48 @@
+{
+    "tableId":"sysAuthList",
+    "tableName": "sysAuthList",
+    "formId":"cusForm",
+    "maxHeight":"9999px",
+    "url":"/mftcc-sys-server/sys/sysModel/findUrlAuthByModelId",
+    "isPagination": false,
+    "isLoading": true,
+    "isDColumn":true,
+    "columns": [
+    {
+        "fieldName":"url",
+        "label": "请求地址",
+        "width": "200px",
+        "fieldType": "text",
+        "dataType": "String",
+        "placeholder": "",
+        "isShow": true,
+        "rules":[
+            {"type": "required", "message": "", "trigger": ["blur","change"]}
+        ]
+    },{
+        "fieldName":"url_desc",
+        "label": "请求描述",
+        "width": "150px",
+        "fieldType": "text",
+        "dataType": "String",
+        "placeholder": "",
+        "isShow": true
+    },
+    {
+        "fieldName": "",
+        "label": "操作",
+        "width": "150px",
+        "data": [{
+            "label": "修改",
+            "type": "edit",
+            "perm": ""
+        },{
+          "label": "取消",
+          "type":"cancel"
+        },{
+            "label": "删除",
+            "type": "delete"
+        }]
+    }],
+    "tableData": []
+}

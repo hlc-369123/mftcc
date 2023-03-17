@@ -1,0 +1,10 @@
+{
+  "formId": "guaranteePlanDetailsForm",
+  "formName": "guaranteePlanDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

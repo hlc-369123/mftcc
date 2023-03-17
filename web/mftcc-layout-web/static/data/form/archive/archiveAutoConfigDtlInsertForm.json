@@ -1,0 +1,10 @@
+{
+  "formId": "archiveAutoConfigDtlInsertForm",
+  "formName": "archiveAutoConfigDtlInsertForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "formId": "sysUser",
+  "formName": "sysUser",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "columns": 3,
+  "formItem": [
+    {
+      "label": "姓名",
+      "fieldName": "opName",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入姓名",
+      "switchValue": {
+        "activeValue": 1,
+        "inActiveValue": 0
+      },
+      "dicKey": "",
+      "dicItem": [
+        {
+          "optCode": "",
+          "optName": ""
+        }
+      ],
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules": [],
+      "events": [
+        {
+          "type": "",
+          "callback": ""
+        }
+      ],
+      "dateFormat": {
+        "format": "",
+        "valueFormat": ""
+      },
+      "formatter": ""
+    },
+    {
+      "label": "用户名",
+      "fieldName": "opNo",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入用户名",
+      "switchValue": {
+        "activeValue": 1,
+        "inActiveValue": 0
+      },
+      "dicKey": "",
+      "dicItem": [
+        {
+          "optCode": "",
+          "optName": ""
+        }
+      ],
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules": [],
+      "events": [
+        {
+          "type": "",
+          "callback": ""
+        }
+      ],
+      "dateFormat": {
+        "format": "",
+        "valueFormat": ""
+      },
+      "formatter": ""
+    },
+    {
+      "label": "用户状态",
+      "fieldName": "userSts",
+      "fieldType": "select",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入用户状态",
+      "switchValue": {
+        "activeValue": 1,
+        "inActiveValue": 0
+      },
+      "dicKey": "USER_STS",
+      "dicItem": [
+        {
+          "optCode": "",
+          "optName": ""
+        }
+      ],
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules": [],
+      "events": [
+        {
+          "type": "",
+          "callback": ""
+        }
+      ],
+      "dateFormat": {
+        "format": "",
+        "valueFormat": ""
+      },
+      "formatter": ""
+    },
+    {
+      "label": "角色号",
+      "fieldName": "roleNo",
+      "fieldType": "multipleSelection",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入角色号",
+      "switchValue": {
+        "activeValue": 1,
+        "inActiveValue": 0
+      },
+      "dicKey": "",
+      "dicItem": [
+        {
+          "optCode": "",
+          "optName": ""
+        }
+      ],
+      "readOnly": false,
+      "disabled": false,
+      "isShow": false,
+      "rules": [],
+      "events": [
+        {
+          "type": "",
+          "callback": ""
+        }
+      ],
+      "dateFormat": {
+        "format": "",
+        "valueFormat": ""
+      },
+      "formatter": ""
+    },
+    {
+      "label": "动态查询",
+      "fieldName": "dynamicQuery",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "",
+      "switchValue": {
+        "activeValue": 1,
+        "inActiveValue": 0
+      },
+      "dicKey": "",
+      "dicItem": [
+        {
+          "optCode": "",
+          "optName": ""
+        }
+      ],
+      "readOnly": false,
+      "disabled": false,
+      "isShow": false,
+      "rules": [],
+      "events": [
+        {
+          "type": "",
+          "callback": ""
+        }
+      ],
+      "dateFormat": {
+        "format": "",
+        "valueFormat": ""
+      },
+      "formatter": ""
+    }
+  ]
+}

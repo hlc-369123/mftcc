@@ -1,0 +1,230 @@
+{
+  "tableId":"pledgeReceivableTransferTable",
+  "tableName": "应收账款转让信息",
+  "isAutoHeight": true,
+  "height":"auto",
+  "isSelect": false,
+  "url":"/mftcc-pledge-server/receivable/pledgeReceivableTransfer/findByPage",
+  "isPagination": true,
+  "isExport": false,
+  "isLoading": true,
+  "isDColumn": true,
+  "isCustomQuery": false,
+  "modelType": "dynamicModel",
+  "isDynamicQuery": true,
+  "queryTabs": [],
+  "dynamicQuery": {
+    "prop": "dynamicQueryProp",
+    "fieldType": "dynamicQuery",
+    "fieldNames": [
+        "transferorName",        "assigneeName"    ]
+  },
+  "tabActiveName": "",
+  "customBtns": [
+    {
+      "callback": "insert",
+      "fieldType": "customBtn",
+      "label": "新增",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_insert"
+    }
+  ],
+  "isOptBtns": true,
+  "optBtns":[
+    {
+      "callback": "edit",
+      "fieldType": "optBtn",
+      "label": "修改",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_dit"
+    },
+    {
+      "callback": "delete",
+      "fieldType": "optBtn",
+      "label": "删除",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_delete"
+    }
+  ],
+  "columns": [
+    {
+      "prop": "registerTerm",
+      "label": "登记期限",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType" : "query"
+      },
+      "isHref": true,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "registerExpireDate",
+      "label": "登记到期日",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "transferorName",
+      "label": "出让人",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "assigneeName",
+      "label": "受让人",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "transferPactNo",
+      "label": "转让合同号",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "transferAmt",
+      "label": "转让财产价值",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  },    {
+      "prop": "transferExpireDate",
+      "label": "转让日期",
+      "isShow": true,
+      "href": {
+        "path": "",
+        "query": "",
+        "callbackType": ""
+      },
+      "isHref": false,
+    "fieldType": "text",
+    "dataType": "",
+    "formatter": "",
+    "desensitization": "",
+    "isAutoWidth": true,
+    "width": "",
+    "minWidth": "",
+    "fixed": "",
+    "align": "left",
+    "show-overflow-tooltip": false,
+    "isQuery": false,
+    "queryType": "2",
+    "queryTableAlias": "",
+    "value": "",
+    "rules": []
+  }  ],
+  "tableData": []
+}

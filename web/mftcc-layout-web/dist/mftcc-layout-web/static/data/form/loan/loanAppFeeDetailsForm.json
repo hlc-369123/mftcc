@@ -1,0 +1,10 @@
+{
+  "formId": "loanAppFeeDetailsForm",
+  "formName": "loanAppFeeDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

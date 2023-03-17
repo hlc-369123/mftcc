@@ -1,0 +1,10 @@
+{
+  "formId": "configNotifyInfoRelUpdateForm",
+  "formName": "configNotifyInfoRelUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

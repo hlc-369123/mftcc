@@ -1,0 +1,12 @@
+.expandModelDiv .dynamicQuery .el-input__inner {
+  height: 30px;
+  line-height: 30px;
+}
+/* .mftcc-form-buttom .sysBtns button, .mftcc-form-tools .sysBtns button{
+    background-color: #409eff;
+    color: #ffffff;
+    border: none;
+} */
+.expandModelDiv{
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+{
+  "formId": "cusTaskInsertForm",
+  "formName": "cusTaskInsertForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

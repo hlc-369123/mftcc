@@ -1,0 +1,51 @@
+.mftcc-form-search{
+    padding: 8px 12px;
+    margin: 12px;
+    margin-bottom: 1px;
+    background-color: #FFF;
+    width: auto;
+}
+.mftcc-form-search .el-form-item {
+    margin-bottom: 0px;
+}
+.mftcc-form-search .el-form-item__content input{
+	height: 34px;
+}
+.mftcc-form-search .el-range-editor .el-range-input{
+    height: 32px;
+}
+.mftcc-form-search .el-date-editor .el-range-separator{
+    height: 34px;
+    line-height: 34px;
+    white-space: nowrap;
+}
+.mftcc-form-search .el-date-editor .el-range__close-icon{
+    display: none;
+}
+.mftcc-form-search .el-form-item__label{
+    width: 35% !important;
+}
+
+.mftcc-form-search .el-form-item__content{
+	margin-left: 35% !important;
+}
+
+.mftcc-form-search .el-date-editor{
+    width: 100%;
+}
+.mftcc-form-search .el-table .cell{
+	padding: 0px;
+}
+.mftcc-form-search .widgets{
+    padding: 0px;
+    margin: 0;
+}
+.mftcc-form-search .search-button button {
+    background-color: #409EFF;
+    border: none;
+    border-radius: 0px;
+    height: 100%;
+    float: right;
+    padding: 10px 20px;
+    border-radius: 4px;
+}

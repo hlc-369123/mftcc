@@ -1,0 +1,35 @@
+{
+  "name": "mftcc-layout-web",
+  "version": "1.0.0",
+  "description": "mftcc",
+  "author": "mftcc",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run node-redis && npm run node-auto && npm run dev",
+    "build": "npm run node-auto && node --max_old_space_size=10000000 build/build.js",
+    "node-redis": "node static/server/form-redis/node.js",
+    "node-auto": "node static/server/auto/node-auto.js"
+  },
+  "dependencies": {
+    "core-js": "^3.8.1",
+    "echarts": "^5.2.1",
+    "redis": "^3.0.2",
+    "single-spa-vue": "^2.1.0",
+    "systemjs-webpack-interop": "^2.3.4",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "devDependencies": {
+    "mftcc-dev-npm": "^1.2.0"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8",
+    "chrome >= 65"
+  ]
+}

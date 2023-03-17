@@ -1,0 +1,106 @@
+{
+  "formId": "groupMeetApplyDetailsForm",
+  "formName": "groupMeetApplyDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+    {
+      "label": "会议编号",
+      "fieldName": "meetNo",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入会议编号",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "会议编号不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "会议主题",
+      "fieldName": "meetTitle",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入会议主题",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "会议主题不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "会议内容",
+      "fieldName": "meetingContent",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入会议内容",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "会议内容不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "会议类型01集采委，02分公司总经理办公会，03集团总经理办公会，04支委会，05党委会，06董事会",
+      "fieldName": "meetType",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入会议类型01集采委，02分公司总经理办公会，03集团总经理办公会，04支委会，05党委会，06董事会",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+        {"type": "required", "message": "会议类型01集采委，02分公司总经理办公会，03集团总经理办公会，04支委会，05党委会，06董事会不能为空", "trigger": "blur"}
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    }
+  ]
+}

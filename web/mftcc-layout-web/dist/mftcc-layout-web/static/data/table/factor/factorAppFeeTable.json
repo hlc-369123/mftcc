@@ -1,0 +1,54 @@
+{
+  "tableId":"factorAppFeeTable",
+  "tableName": "业务费用表",
+  "isAutoHeight": true,
+  "height":"auto",
+  "isSelect": false,
+  "url":"/mftcc-factor-server/fee/factorAppFee/findByPage",
+  "isPagination": true,
+  "isExport": false,
+  "isLoading": true,
+  "isDColumn": true,
+  "isCustomQuery": false,
+  "modelType": "nothingModel",
+  "queryTabs": [],
+  "dynamicQuery": {
+    "prop": "dynamicQueryProp",
+    "fieldType": "dynamicQuery",
+    "fieldNames": [
+    ]
+  },
+  "tabActiveName": "",
+  "customBtns": [
+    {
+      "callback": "insert",
+      "fieldType": "customBtn",
+      "label": "新增",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_insert"
+    }
+  ],
+  "isOptBtns": true,
+  "optBtns":[
+    {
+      "callback": "edit",
+      "fieldType": "optBtn",
+      "label": "修改",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_dit"
+    },
+    {
+      "callback": "delete",
+      "fieldType": "optBtn",
+      "label": "删除",
+      "noShowParams": "",
+      "perm": "",
+      "prop": "opt_delete"
+    }
+  ],
+  "columns": [
+  ],
+  "tableData": []
+}

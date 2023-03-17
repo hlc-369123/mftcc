@@ -1,0 +1,10 @@
+{
+  "formId": "groupLawFileUpdateForm",
+  "formName": "groupLawFileUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

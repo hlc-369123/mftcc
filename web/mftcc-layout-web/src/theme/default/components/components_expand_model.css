@@ -1,0 +1,151 @@
+.expandModelDiv {
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 5%);
+    background: #fff;
+    margin: 0 12px;
+  }
+  .expandModelDiv .mftcc-form-tools{
+    margin: 0;
+    padding-left: 0;
+  }
+  .expandModelDiv .el-form-item__content{
+    white-space: initial;
+  }
+  .expandModelDiv .goBack {
+    font-size: 20px;
+    font-weight: bold;
+    height: 20px;
+    width: 40px;
+    line-height: 20px;
+    border-right: 1px solid #f1f1f1;
+    text-align: center;
+    color: #0a7cff;
+    cursor: pointer;
+  }
+  .expandBtn {
+    width: 80px;
+    margin: -2px auto 5px;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+    color: #939393;
+    padding: 0 0 0 28px;
+  }
+  .expandModelDiv .el-form-item {
+    margin: 0;
+    border-bottom: 1px dashed #eef0f3;
+    padding: 0 0 2px 0;
+  }
+  .expandModelDiv .el-form-item__label {
+    font-size: 12px;
+    color: #666f80;
+    padding: 0 25px 0 0;
+    height: 40px;
+    line-height: 44px;
+  }
+  .expandModelDiv .widgets {
+    padding: 0px 10px;
+    margin: 0;
+  }
+  .expandModelDiv .widgets:last-child{
+    border: none;
+  }
+  .expandModelDiv .el-form-item.addQueryItem {
+    border-bottom: none;
+  }
+  .expandModelDiv .mftcc-form-item.select .el-select,
+  .expandModelDiv .mftcc-form-item.date .el-date-editor,
+  .expandModelDiv .mftcc-form-item.datetime .el-date-editor,
+  .expandModelDiv .mftcc-form-item.dateGroup .el-date-editor,
+  .expandModelDiv .mftcc-form-item.datetimeGroup .el-date-editor {
+    width: 33%;
+  }
+  .expandModelDiv .mftcc-form-item.multipleSelection .el-select,
+  .expandModelDiv .mftcc-form-item.text .el-input {
+    width: 66%;
+  }
+  .expandModelDiv .el-radio {
+    margin: 5px 20px 5px 0;
+  }
+  .expandModelDiv .el-radio__input {
+    display: none;
+  }
+  .expandModelDiv .el-radio__label {
+    padding-left: 0;
+  }
+  .expandModelDiv .el-checkbox-group,
+  .expandModelDiv .el-radio-group {
+    font-size: initial;
+  }
+  .expandModelDiv .el-checkbox {
+    margin-right: 20px;
+  }
+  .expandModelDiv .el-date-editor .el-range-separator {
+    line-height: 26px;
+    color: #c0c4cc;
+  }
+  .expandModelDiv .el-date-editor .el-range-input {
+    width: 42%;
+  }
+  .expandModelDiv .el-radio__label,
+  .expandModelDiv .el-checkbox__label,
+  .expandModelDiv input {
+    font-size: 12px;
+  }
+  .expandModelDiv input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    font-size: 12px;
+  }
+  .expandModelDiv input::-moz-placeholder {
+    font-size: 12px;
+    /* Mozilla Firefox 19+ */
+  }
+  .expandModelDiv input:-ms-input-placeholder {
+    font-size: 12px;
+    /* Internet Explorer 10+ */
+  }
+  .expandModelDiv .el-input__inner {
+    border-radius: 4px;
+    height: 34px;
+    line-height: 34px;
+  }
+  .expandModelDiv .otherWidgets > .el-form-item__content > .widgets {
+    padding: 0;
+    display: inline-block;
+    margin-right: 3px;
+  }
+  .expandModelDiv .otherWidgets > .el-form-item__content .widgets {
+    width: 33%;
+  }
+  .expandModelDiv .otherWidgets > .el-form-item__content .widgets .el-form-item__label {
+    display: none;
+  }
+  .expandModelDiv .otherWidgets > .el-form-item__content .widgets .el-form-item__content {
+    margin: 0 !important;
+  }
+  .expandModelDiv .otherWidgets > .el-form-item__content .widgets .el-select,
+  .expandModelDiv .otherWidgets > .el-form-item__content .widgets .el-input,
+  .expandModelDiv .otherWidgets > .el-form-item__content .widgets .el-date-editor
+   {
+    width: 100%;
+  }
+  .expandModelDiv .otherWidgets > .el-form-item__content .widgets .el-date-editor{
+    top:1px;
+  }
+  .expandModelDiv .otherWidgets > .el-form-item__content .widgets .el-date-editor .el-range__icon{
+    margin-top: -6px;
+  }
+  .expandModelDiv .otherWidgets > .el-form-item__content .widgets .el-form-item {
+    border-bottom: none;
+  }
+  .expandModelDiv .tableSreach {
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  .expandModelDiv .tableSreach .searchBtn,
+  .expandModelDiv .tableSreach .resetBtn {
+    box-shadow: none;
+    margin: 0 5px;
+  }
+  

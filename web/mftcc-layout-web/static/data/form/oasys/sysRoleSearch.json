@@ -1,0 +1,110 @@
+{
+  "formId": "sysRole",
+  "formName": "sysRole",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "columns": 2,
+  "formItem": [
+    {
+      "label": "角色名称",
+      "fieldName": "roleName",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入角色名称",
+      "switchValue": {"activeValue": 1,"inActiveValue": 0},
+      "dicKey": "",
+      "dicItem": [
+        {"optCode": "","optName": ""}
+      ],
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[],
+      "events":[
+        {"type": "","callback": ""}
+      ],
+      "dateFormat":{
+        "format": "",
+        "valueFormat" : ""
+      },
+      "formatter": ""
+    },
+    {
+      "label": "角色号",
+      "fieldName": "roleNo",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入角色号",
+      "switchValue": {"activeValue": 1,"inActiveValue": 0},
+      "dicKey": "",
+      "dicItem": [
+        {"optCode": "","optName": ""}
+      ],
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[],
+      "events":[
+        {"type": "","callback": ""}
+      ],
+      "dateFormat":{
+        "format": "",
+        "valueFormat" : ""
+      },
+      "formatter": ""
+    },
+    {
+      "label": "角色类型",
+      "fieldName": "roleType",
+      "fieldType": "select",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入角色类型",
+      "switchValue": {"activeValue": 1,"inActiveValue": 0},
+      "dicKey": "",
+      "dicItem": [
+        {"optCode": "1","optName": "外部"},
+        {"optCode": "2","optName": "内部"}
+      ],
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[],
+      "events":[
+        {"type": "","callback": ""}
+      ],
+      "dateFormat":{
+        "format": "",
+        "valueFormat" : ""
+      },
+      "formatter": ""
+    },
+    {
+      "label": "动态查询",
+      "fieldName": "dynamicQuery",
+      "fieldType": "text",
+      "dataType": "",
+      "value": "",
+      "placeholder": "",
+      "switchValue": {"activeValue": 1,"inActiveValue": 0},
+      "dicKey": "",
+      "dicItem": [
+        {"optCode": "","optName": ""}
+      ],
+      "readOnly": false,
+      "disabled": false,
+      "isShow": false,
+      "rules":[],
+      "events":[
+        {"type": "","callback": ""}
+      ],
+      "dateFormat":{
+        "format": "",
+        "valueFormat" : ""
+      },
+      "formatter": ""
+    }
+  ]
+}

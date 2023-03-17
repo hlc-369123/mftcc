@@ -1,0 +1,10 @@
+{
+  "formId": "archiveDocClassUpdateForm",
+  "formName": "archiveDocClassUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

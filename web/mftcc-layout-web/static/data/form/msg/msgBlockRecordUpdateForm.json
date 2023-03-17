@@ -1,0 +1,238 @@
+{
+  "formId": "msgBlockRecordUpdateForm",
+  "formName": "msgBlockRecordUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+    {
+      "label": "黑名单ID",
+      "fieldName": "blockId",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入黑名单ID",
+      "readOnly": false,
+      "disabled": true,
+      "isShow": true,
+      "rules":[
+
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "配置ID",
+      "fieldName": "configId",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入配置ID",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":0,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "微服务名",
+      "fieldName": "callerIdenty",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入微服务名",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "管控渠道",
+      "fieldName": "blockChannelNo",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入管控渠道",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":1,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "是否管控（同一时间只启用一条）",
+      "fieldName": "blockFlag",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入是否管控（同一时间只启用一条）",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":2,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "管控原因",
+      "fieldName": "blockReason",
+      "fieldType": "text",
+      "dataType": "String",
+      "value": "",
+      "placeholder": "请输入管控原因",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":2,
+      "state":[],
+      "useState": "",
+      "suffix":"",
+      "maxlength":"",
+      "show-word-limit":false
+    },
+    {
+      "label": "本次管控开始时间",
+      "fieldName": "beginTime",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入本次管控开始时间",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":3,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    },
+    {
+      "label": "本次管控结束时间",
+      "fieldName": "endTime",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入本次管控结束时间",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"1",
+          "rowIndex":3,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    },
+    {
+      "label": "实际结束管控时间",
+      "fieldName": "endTimeReal",
+      "fieldType": "date",
+      "dataType": "",
+      "value": "",
+      "placeholder": "请输入实际结束管控时间",
+      "readOnly": false,
+      "disabled": false,
+      "isShow": true,
+      "rules":[
+
+      ],
+      "events":[],
+      "colspan":1,
+      "rowspan":1,
+      "colIndex":"0",
+          "rowIndex":4,
+      "state":[],
+      "useState": "",
+      "dateFormat":{
+        "format": "yyyy-MM-dd",
+        "valueFormat" : "yyyyMMdd"
+      },
+      "dateOption":{
+        "isLong": false
+      }
+    }
+  ]
+}

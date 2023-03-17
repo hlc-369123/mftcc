@@ -1,0 +1,56 @@
+/*table样式*/
+.mftcc-table-query {
+  flex-grow: 1;
+  margin: 0 12px 12px;
+}
+.mftcc-details .mftcc-table-query {
+  margin: 0;
+}
+.mftcc-table-query .el-table__body tr td {
+  padding: 0px 0px !important;
+  line-height: 41px;
+  vertical-align: center;
+  color: #727272;
+}
+.mftcc-table-query .el-table__body tr td a {
+  color: #409eff;
+  text-decoration: none;
+}
+.mftcc-table-query .el-table__body tr td a:hover {
+  color: #66b1ff;
+}
+.mftcc-table-query .el-table--enable-row-hover .el-table__body tr:hover > td,
+.mftcc-table-query .el-table__body tr.hover-row.current-row > td,
+.mftcc-table-query
+  .el-table__body
+  tr.hover-row.el-table__row--striped.current-row
+  > td,
+.mftcc-table-query .el-table__body tr.hover-row.el-table__row--striped > td,
+.mftcc-table-query .el-table__body tr.hover-row > td {
+  background-color: #e3f1ff !important;
+}
+.mftcc-table-query .el-table tr {
+  height: 36px;
+  line-height: 36px;
+  border-bottom: 1px solid #e9ebf2;
+  color: #000000;
+}
+.mftcc-table-query .el-table tr:last-child td {
+  border-bottom: none;
+}
+.mftcc-table-query .el-table th {
+  font-size: 14px;
+  font-weight: normal;
+  color: #000;
+  padding: 0px;
+}
+.mftcc-table-query .el-dropdown-DColumn {
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  right: 5px;
+}
+.mftcc-table-query .el-table__header,
+.mftcc-table-query .el-table__body {
+  border: none;
+}

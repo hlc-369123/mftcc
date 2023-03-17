@@ -1,0 +1,9 @@
+/* 列表多选和单选框的颜色 */
+.mftcc-table .el-table-column--selection .el-checkbox__inner,
+.mftcc-table .el-table-column--selection .el-radio__inner {
+    border: 1px solid #999999;
+}
+.mftcc-table .el-table-column--selection .is-checked .el-checkbox__inner,
+.mftcc-table .el-table-column--selection .is-checked .el-radio__inner {
+    border-color: #409eff;
+}

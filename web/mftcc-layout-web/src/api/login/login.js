@@ -1,0 +1,78 @@
+const { postJsonNoLoading, postJson } = $axios;
+
+const api = {
+  login: (data, success, error) => {
+    postJsonNoLoading(
+      "/" + $servers.sys + "/login",
+      data,
+      true,
+      success,
+      error
+    );
+  },
+  loginOut: (data, success, error) => {
+    postJsonNoLoading(
+      "/" + $servers.sys + "/loginOut",
+      data,
+      true,
+      success,
+      error
+    );
+  },
+  validatePassword: (data, success, error) => {
+    postJsonNoLoading(
+      "/" + $servers.sys + "/sys/sysUser/validatePassword",
+      data,
+      true,
+      success,
+      error
+    );
+  },
+  validateNewPassword: (data, success, error) => {
+    postJsonNoLoading(
+      "/" + $servers.sys + "/sys/sysSecAuditConfig/validatePWAjax",
+      data,
+      true,
+      success,
+      error
+    );
+  },
+  updatePassword: (data, success, error) => {
+    postJson(
+      "/" + $servers.sys + "/sys/sysUser/updatePassword",
+      data,
+      true,
+      success,
+      error
+    );
+  },
+  createToken: (data, success, error) => {
+    postJson(
+      "/mftcc-busconfig-server/zxoa/busconfigOaMessageRecord/createToken",
+      data,
+      true,
+      success,
+      error
+    );
+  },
+  autoLogin: (data, success, error) => {
+    postJson(
+      "/mftcc-busconfig-server/zxoa/busconfigOaMessageRecord/autoLogin",
+      data,
+      true,
+      success,
+      error
+    );
+  },
+  foreignLogin: (data, success, error) => {
+    postJson(
+      "/mftcc-sys-server/sys/simulationLogin?opNo=0000",
+      data,
+      true,
+      success,
+      error
+    );
+  }
+};
+
+export default api;

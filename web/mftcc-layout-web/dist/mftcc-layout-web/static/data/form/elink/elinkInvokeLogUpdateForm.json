@@ -1,0 +1,10 @@
+{
+  "formId": "elinkInvokeLogUpdateForm",
+  "formName": "elinkInvokeLogUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

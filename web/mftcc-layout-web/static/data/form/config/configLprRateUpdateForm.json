@@ -1,0 +1,10 @@
+{
+  "formId": "configLprRateUpdateForm",
+  "formName": "configLprRateUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

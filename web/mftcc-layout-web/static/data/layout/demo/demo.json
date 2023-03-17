@@ -1,0 +1,12 @@
+{
+	"rowSpan":0,
+	"colSpan":10,
+	"layoutId":"demo",
+	"layoutName":"demo",
+	"colData":[
+		{
+			"span":24,
+			"cells":[]
+		}
+	]
+}

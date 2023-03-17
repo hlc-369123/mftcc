@@ -1,0 +1,10 @@
+{
+  "formId": "elinkMessageUpdateForm",
+  "formName": "elinkMessageUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

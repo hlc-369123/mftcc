@@ -1,0 +1,10 @@
+{
+  "formId": "wkfExcTaskInsertForm",
+  "formName": "wkfExcTaskInsertForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

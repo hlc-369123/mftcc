@@ -1,0 +1,10 @@
+{
+  "formId": "configCwProofWordsDetailsForm",
+  "formName": "configCwProofWordsDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

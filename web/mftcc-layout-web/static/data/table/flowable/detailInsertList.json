@@ -1,0 +1,98 @@
+{
+    "tableId":"detailInsertList",
+    "tableName": "detailInsertList",
+    "formId":"bizForm",
+    "height":"auto",
+    "url":"/mftcc-flowable-server/bizconfig/bizconfig/list",
+    "isPagination": true,
+    "isLoading": true,
+    "isDColumn":false,
+    "columns": [
+        {
+        "fieldName":"columnName",
+        "label": "字段名称",
+        "width": "150px",
+        "fieldType": "text",
+        "dataType": "String",
+        "isShow": true
+    },{
+        "fieldName": "columnType",
+        "label": "字段类型",
+        "width": "150px",
+        "fieldType": "text",
+        "dataType": "String",
+        "isShow": true
+    },{
+        "fieldName": "bizDefault",
+        "label": "默认值",
+        "width": "150px",
+        "fieldType": "text",
+        "dataType": "String",
+        "isShow": true
+    },{
+      "fieldName": "cnName",
+      "label": "列标题",
+      "width": "150px",
+      "fieldType": "text",
+      "dataType": "String",
+      "isShow": true
+    },{
+      "fieldName": "cnWidth",
+      "label": "列宽度",
+      "width": "150px",
+      "fieldType": "text",
+      "dataType": "String",
+      "isShow": true
+    },{
+      "fieldName": "dicType",
+      "label": "字典类型",
+      "width": "150px",
+      "fieldType": "text",
+      "dataType": "String",
+      "isShow": true
+    },{
+      "fieldName": "unit",
+      "label": "单位",
+      "width": "150px",
+      "fieldType": "text",
+      "dataType": "String",
+      "isShow": true
+    },{
+        "fieldName": "seq",
+        "label": "排序索引",
+        "width": "100px",
+        "fieldType": "text",
+        "dataType": "String",
+        "value":0,
+        "isShow": true
+    },
+    {
+        "fieldName": "isSearch",
+        "label": "是否查询",
+        "width": "60px",
+        "fieldType": "switch",
+        "switchValue": {"activeValue": "true","inActiveValue": "false"},
+        "isShow": true
+    },{
+        "fieldName": "isShow",
+        "label": "是否展示",
+        "width": "60px",
+        "fieldType": "switch",
+        "switchValue": {"activeValue": "true","inActiveValue": "false"},
+        "isShow": true
+    },{
+        "fieldName": "",
+        "label": "操作",
+        "width": "150px",
+        "data": [{
+            "label": "修改",
+            "type": "edit",
+            "perm": ""
+        },{
+            "label": "取消",
+            "type": "cancel",
+            "perm": ""
+        }]
+    }],
+    "tableData": []
+}

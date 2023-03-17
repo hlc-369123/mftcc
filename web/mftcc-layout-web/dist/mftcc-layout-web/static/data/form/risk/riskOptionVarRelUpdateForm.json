@@ -1,0 +1,10 @@
+{
+  "formId": "riskOptionVarRelUpdateForm",
+  "formName": "riskOptionVarRelUpdateForm",
+  "formDisabled": false,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

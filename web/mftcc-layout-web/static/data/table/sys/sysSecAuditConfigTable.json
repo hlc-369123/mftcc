@@ -1,0 +1,63 @@
+{
+    "tableId":"sysSecAuditConfigTable",
+    "tableName": "安全审计列表",
+    "height":"auto",
+    "url":"/mftcc-sys-server/sys/sysSecAuditConfig/findList",
+    "isPagination": false,
+    "isLoading": true,
+    "isDColumn":false,
+    "query": "search",
+    "columns": [
+    {
+      "fieldName": "codeType",
+      "label": "规则种类",
+      "width": "90px",
+      "isShow": true,
+      "align": "center",
+      "fieldType": "query"
+    },
+    {
+      "fieldName": "itemName",
+      "label": "规则描述",
+      "width": "200px",
+      "isShow": true,
+      "fieldType": "query",
+      "align": "left",
+      "show-overflow-tooltip": true
+    },
+    {
+      "fieldName": "itemValues",
+      "label": "规则值",
+      "width": "80px",
+      "isShow": true,
+      "align": "center",
+      "fieldType": "text"
+    },
+    {
+      "fieldName": "isUse",
+      "label": "启用标志",
+      "width": "90px",
+      "isShow": true,
+      "align": "center",
+      "fieldType": "switch",
+      "dataType": "string",
+      "switchValue": {"activeValue": "1","inActiveValue": "0"},
+      "events":[
+        {"type": "change","callback": "userChange"}
+      ]
+    },
+    {
+      "fieldName": "",
+      "label": "操作",
+      "width": "80px",
+      "align": "center",
+      "data": [{
+        "label": "保存",
+        "type": "edit",
+        "perm": "",
+        "auth": "isEdit-0;"
+      }]
+    }
+    ],
+    "tableData": []
+  }

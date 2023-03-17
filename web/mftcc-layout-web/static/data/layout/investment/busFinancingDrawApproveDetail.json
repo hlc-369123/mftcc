@@ -1,0 +1,12 @@
+{
+	"rowSpan":0,
+	"colSpan":10,
+	"layoutId":"busFinancingDrawApproveDetail",
+	"layoutName":"提款审批单",
+	"colData":[
+		{
+			"span":24,
+			"cells":[]
+		}
+	]
+}

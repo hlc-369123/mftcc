@@ -1,0 +1,207 @@
+.middle-north-center .input_content{
+  width: 350px;
+  color:white;
+  padding-left:20px;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 17px;
+  border: none;
+  outline: none;
+}
+
+
+.middle-north-center .head-search-div{
+  float: left;
+  margin-top: 10px;
+}
+
+.head-search-div input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 14px;
+}
+
+
+.middle-north-center .head-search-div  .search-icon-div{
+  float: right;
+  margin-top: 7px;
+}
+
+.middle-north-center .head-search-div  .search-icon-i{
+  margin-left: -35px;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+.report .block  .el-carousel__container{
+  height: 360px !important;
+}
+
+.width-270{
+  width: 263px !important;
+  height: 30px !important;
+}
+
+.menu-user-title .menu-user-message .head-username-div{
+  font-size: 18px;
+  font-weight:600;
+  line-height: 30px;
+  width: 80% !important;
+}
+
+.menu-user-title .menu-user-message .head-br-div{
+  width: 100%;
+  line-height: 25px ;
+}
+
+.menu-user-title .menu-user-message .head-role-div{
+  width: 500px !important;
+  line-height: 45px;
+}
+.menu-user-title .menu-user-message .head-role-div .img-div{
+  width: 25px;
+  margin-top: 4px;
+}
+
+.menu-user-title .menu-user-message .head-role-div img{
+  height: 20px;
+  width: 20px;
+}
+
+.float-left{
+  float: left;
+}
+
+.mftcc-fixed-menu .height-50{
+  height: 50px;
+}
+.quick-position img{
+    background-repeat: no-repeat;
+    height: 50px;
+    padding: 2px 33px 25px 32px;
+    background-size: 65px;
+}
+.tool-quick-position img{
+    background-repeat: no-repeat;
+    height: 35px;
+    padding: 0px 1px 37px 53px;
+    background-size: 50px;
+}
+
+
+ .busCus_png {
+  background-image: url(../image/busCus.png);
+   cursor: pointer;
+ }
+.busGua_png{
+  background-image: url(../image/busGua.png);
+
+}
+.loanMandate_png{
+  background-image: url(../image/loanMandate.png);
+}
+.busStock_png{
+  background-image: url(../image/busStock.png);
+}
+.busFund_png{
+  background-image: url(../image/busFund.png);
+}
+.busTrustee_png{
+  background-image: url(../image/busTrustee.png);
+}
+.busBuy_png{
+  background-image: url(../image/busBuy.png);
+}
+.busFinance_png{
+  background-image: url(../image/busFinance.png);
+}
+.assetManage_png{
+  background-image: url(../image/assetManage.png);
+}
+.busReport_png{
+  background-image: url(../image/busReport.png);
+}
+.busRecordFile_png{
+  background-image: url(../image/busRecordFile.png);
+}
+.busNew_png{
+  background-image: url(../image/busNew.png);
+}
+.pactMng_png{
+  background-image: url(../image/pactMng.png);
+}
+.metting_png{
+  background-image: url(../image/metting.png);
+}
+.badge_png{
+  background-image: url(../image/badge.png);
+}
+.jihe_png{
+  background-image: url(../image/jihe.png);
+}
+.calc_png{
+  background-image: url(../image/calc.png);
+}
+.tools_png{
+  background-image: url(../image/tools.png);
+}
+
+.menu-notice-num .el-badge__content sup{
+  border: 0 !important;
+}
+
+.quick-position-li{
+  width:25% !important;
+  list-style: none;
+  z-index:99999
+}
+
+.tool-quick-position li{
+  width:20% !important;
+  list-style: none;
+}
+
+.more{
+  cursor:pointer;
+  width: 32px;
+  height: 22px;
+  font-size: 16px;
+  color: #409EFF;
+  line-height: 22px
+}
+
+.margin-top-5{
+  margin-top: 5px;
+}
+
+.margin-right-30{
+  margin-right: 30px;
+}
+
+.margin-top-50{
+  margin-top: 50px;
+}
+
+.outer-west-logo span{
+  margin-left: 20px;width: 160px;
+  height: 28px;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 28px;
+}
+
+.mftcc-header-menu  >>> .el-badge__content{
+  border: 0 !important;
+  right: 20px;
+}
+.codeImage img{width:36px;height:36px;border-radius:0%;cursor:pointer;color:#fff}
+
+.menu-user-content .menu-user-message .other img{
+  width: 20px;
+  height: 20px;
+  border-radius: 0%;
+  cursor: pointer;
+  color: #fff;
+  width: 40%
+}

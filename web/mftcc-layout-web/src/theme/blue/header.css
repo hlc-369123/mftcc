@@ -1,0 +1,32 @@
+/* 头部背景色 */
+.mftcc-layout-header {
+  background: #122c5e;
+}
+/* 头部右侧功能按钮背景色 */
+.mftcc-layout-header .middle-north-east {
+  background: #122c5e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+}
+.mftcc-layout-header .el-badge__content.is-fixed {
+  background: #d12c2c;
+}
+.mftcc-layout-header .mftcc-header-menu .el-menu-item:focus,
+.mftcc-layout-header .mftcc-header-menu .el-menu-item:hover {
+  background-color: #204e8f;
+}
+.mftcc-layout-header .mftcc-header-menu .el-menu-item.is-active {
+  background-color: #409eff;
+}
+.menu-user-content .menu-user-button {
+  background-color: #122c5e;
+  height: 55px;
+}
+.menu-user-content .menu-user-button .el-divider {
+  height: 40px;
+}
+.menu-user-content .menu-user-button button {
+  background-color: transparent !important;
+}

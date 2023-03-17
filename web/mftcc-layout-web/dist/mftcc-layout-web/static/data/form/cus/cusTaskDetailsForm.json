@@ -1,0 +1,10 @@
+{
+  "formId": "cusTaskDetailsForm",
+  "formName": "cusTaskDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

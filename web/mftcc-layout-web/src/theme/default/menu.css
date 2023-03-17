@@ -1,0 +1,125 @@
+.mftcc-layout-menu {
+  height: 100%;
+  overflow-x: hidden;
+}
+.mftcc-layout-menu .menu {
+  z-index: 1000;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background-color: #101d29;
+  border: none;
+}
+.mftcc-layout-menu .el-scrollbar__bar {
+  z-index: 101;
+}
+.mftcc-layout-menu .menu > .el-menu-item {
+  margin-bottom: 1px;
+  padding: 0 !important;
+  color: #fff;
+  height: 60px;
+  width: 100%;
+  line-height: initial;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-left: 22px !important;
+}
+.mftcc-layout-menu .menu > .el-menu-item:hover {
+  background-color: rgba(64, 158, 255, 0.45);
+}
+.mftcc-layout-menu .menu > .el-menu-item:focus {
+  background: none;
+}
+.mftcc-layout-menu .menu > .el-menu-item.is-active {
+  position: relative;
+  background: url(./images/jiantou.png) no-repeat 0px -6px;
+  background-color: rgba(64, 158, 255, 0.45);
+}
+.mftcc-layout-menu .menu > .el-menu-item i {
+  position: relative;
+  top: 22px;
+  display: block;
+  font-family: "Glyphicons Halflings";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin: 0;
+  margin-right: 8px;
+}
+.mftcc-layout-menu .menu > .el-menu-item span {
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  width: auto;
+  line-height: 60px;
+  float: left;
+}
+
+.mftcc-layout-menu .mftcc-multilevel-menu {
+  background-color: rgb(255, 255, 255);
+  height: calc(100% - 55px);
+  width: 200px;
+  position: absolute;
+  top: 55px;
+  left: 100px;
+  box-shadow: 4px 0px 4px #c0c4cc;
+  z-index: 999;
+  overflow-y: auto;
+}
+.mftcc-layout-menu .mftcc-multilevel-menu-item {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f1f1f3;
+  padding: 15px 0 15px;
+}
+.mftcc-layout-menu .mftcc-multilevel-menu-mask {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 98;
+  top: 0;
+}
+.second-menu-title span {
+  color: #333;
+  width: 140px;
+  text-align: left;
+  font-size: 14px;
+  cursor: pointer;
+  display: block;
+  line-height: 36px;
+  padding-left: 15px;
+}
+
+.second-menu-title span:hover {
+  color: #4a7ec3;
+}
+
+.three-menu-title:hover {
+  color: #4a7ec3;
+}
+
+.three-menu-title {
+  color: #333;
+  text-align: left;
+  font-size: 12px;
+  cursor: pointer;
+  display: block;
+  line-height: 32px;
+  margin-left: 25px;
+}
+
+.mftcc-layout-menu .mftcc-multilevel-menu-transition-enter-active,
+.mftcc-layout-menu .mftcc-multilevel-menu-transition-leave-active {
+  transition: all 0.3s ease;
+}
+.mftcc-layout-menu .mftcc-multilevel-menu-transition-enter,
+.mftcc-layout-menu .mftcc-multilevel-menu-transition-leave-to {
+  transform: translateX(-200px);
+}

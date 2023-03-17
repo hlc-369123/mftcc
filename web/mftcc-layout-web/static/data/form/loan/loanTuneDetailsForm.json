@@ -1,0 +1,10 @@
+{
+  "formId": "loanTuneDetailsForm",
+  "formName": "loanTuneDetailsForm",
+  "formDisabled": true,
+  "labelPosition": "right",
+  "query":"null",
+  "columns": 2,
+  "formItem": [
+  ]
+}

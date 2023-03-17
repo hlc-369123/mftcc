@@ -1,0 +1,7 @@
+.mftcc-list .mftcc-list-table{
+    background-color: #FFF;
+    margin:0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
