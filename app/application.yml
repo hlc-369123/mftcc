@@ -1,0 +1,21 @@
+server:
+  port: 7019
+spring:
+  application:
+    name: mftcc-gateway
+  cloud:
+    nacos: 
+      config: 
+        server-addr: 120.133.73.103:47292
+        namespace: tenant-6eayw6ytguuj
+        username: FcElAUMUqtKP
+        password: QY21LQkJqY5s
+        group: DEFAULT_GROUP
+        file-extension: yml
+        dataId: gateway-router
+        ext-config:
+          - data-id: mftcc.yml
+            group: DEFAULT_GROUP
+            refresh: true
+mftcc:
+  log_path: ../
